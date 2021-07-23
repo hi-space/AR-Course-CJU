@@ -1,0 +1,4202 @@
+fileFormatVersion: 2
+guid: 5f0454f58f82b4c4793a9f5a68107879
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: robot_rig_0003:AimEye
+  - first:
+      1: 100004
+    second: robot_rig_0003:AimFollowEye
+  - first:
+      1: 100006
+    second: robot_rig_0003:AimFollowOffEye
+  - first:
+      1: 100008
+    second: robot_rig_0003:AimFollowOnEye
+  - first:
+      1: 100010
+    second: robot_rig_0003:AimOffsetEye
+  - first:
+      1: 100012
+    second: robot_rig_0003:AimSystem
+  - first:
+      1: 100014
+    second: robot_rig_0003:AlignIKToAnkle_L
+  - first:
+      1: 100016
+    second: robot_rig_0003:AlignIKToAnkle_R
+  - first:
+      1: 100018
+    second: robot_rig_0003:Ankle
+  - first:
+      1: 100020
+    second: robot_rig_0003:Ankle_L
+  - first:
+      1: 100022
+    second: robot_rig_0003:Ankle_R
+  - first:
+      1: 100024
+    second: robot_rig_0003:BendSystem
+  - first:
+      1: 100026
+    second: robot_rig_0003:Chest
+  - first:
+      1: 100028
+    second: robot_rig_0003:Chest_M
+  - first:
+      1: 100030
+    second: robot_rig_0003:ConstraintSystem
+  - first:
+      1: 100032
+    second: robot_rig_0003:DeformationSystem
+  - first:
+      1: 100034
+    second: robot_rig_0003:DrivingSystem
+  - first:
+      1: 100036
+    second: robot_rig_0003:DynamicSystem
+  - first:
+      1: 100038
+    second: robot_rig_0003:Elbow
+  - first:
+      1: 100040
+    second: robot_rig_0003:Elbow_L
+  - first:
+      1: 100042
+    second: robot_rig_0003:Elbow_R
+  - first:
+      1: 100044
+    second: robot_rig_0003:Eye
+  - first:
+      1: 100046
+    second: robot_rig_0003:Eye_L
+  - first:
+      1: 100048
+    second: robot_rig_0003:Eye_R
+  - first:
+      1: 100050
+    second: robot_rig_0003:EyeEnd
+  - first:
+      1: 100052
+    second: robot_rig_0003:EyeEnd_L
+  - first:
+      1: 100054
+    second: robot_rig_0003:EyeEnd_R
+  - first:
+      1: 100056
+    second: robot_rig_0003:FitSkeleton
+  - first:
+      1: 100058
+    second: robot_rig_0003:FKAnkle_L
+  - first:
+      1: 100060
+    second: robot_rig_0003:FKAnkle_R
+  - first:
+      1: 100062
+    second: robot_rig_0003:FKExtraAnkle_L
+  - first:
+      1: 100064
+    second: robot_rig_0003:FKExtraAnkle_R
+  - first:
+      1: 100066
+    second: robot_rig_0003:FKExtraHip_L
+  - first:
+      1: 100068
+    second: robot_rig_0003:FKExtraHip_R
+  - first:
+      1: 100070
+    second: robot_rig_0003:FKExtraIndexFinger1_L
+  - first:
+      1: 100072
+    second: robot_rig_0003:FKExtraIndexFinger1_R
+  - first:
+      1: 100074
+    second: robot_rig_0003:FKExtraKnee_L
+  - first:
+      1: 100076
+    second: robot_rig_0003:FKExtraKnee_R
+  - first:
+      1: 100078
+    second: robot_rig_0003:FKExtraMiddleFinger1_L
+  - first:
+      1: 100080
+    second: robot_rig_0003:FKExtraMiddleFinger1_R
+  - first:
+      1: 100082
+    second: robot_rig_0003:FKExtraNeck_M
+  - first:
+      1: 100084
+    second: robot_rig_0003:FKExtraPinkyFinger1_L
+  - first:
+      1: 100086
+    second: robot_rig_0003:FKExtraPinkyFinger1_R
+  - first:
+      1: 100088
+    second: robot_rig_0003:FKExtraRingFinger1_L
+  - first:
+      1: 100090
+    second: robot_rig_0003:FKExtraRingFinger1_R
+  - first:
+      1: 100092
+    second: robot_rig_0003:FKExtraRoot_M
+  - first:
+      1: 100094
+    second: robot_rig_0003:FKExtraScapula_L
+  - first:
+      1: 100096
+    second: robot_rig_0003:FKExtraScapula_R
+  - first:
+      1: 100098
+    second: robot_rig_0003:FKExtraShoulder_L
+  - first:
+      1: 100100
+    second: robot_rig_0003:FKExtraShoulder_R
+  - first:
+      1: 100102
+    second: robot_rig_0003:FKExtraThumbFinger1_L
+  - first:
+      1: 100104
+    second: robot_rig_0003:FKExtraThumbFinger1_R
+  - first:
+      1: 100106
+    second: robot_rig_0003:FKExtraToes_L
+  - first:
+      1: 100108
+    second: robot_rig_0003:FKExtraToes_R
+  - first:
+      1: 100110
+    second: robot_rig_0003:FKHip_L
+  - first:
+      1: 100112
+    second: robot_rig_0003:FKHip_R
+  - first:
+      1: 100114
+    second: robot_rig_0003:FKIKMixElbow_L
+  - first:
+      1: 100116
+    second: robot_rig_0003:FKIKMixElbow_R
+  - first:
+      1: 100118
+    second: robot_rig_0003:FKIKParentConstraintArm_L
+  - first:
+      1: 100120
+    second: robot_rig_0003:FKIKParentConstraintArm_R
+  - first:
+      1: 100122
+    second: robot_rig_0003:FKIKParentConstraintLeg_L
+  - first:
+      1: 100124
+    second: robot_rig_0003:FKIKParentConstraintLeg_R
+  - first:
+      1: 100126
+    second: robot_rig_0003:FKIKParentConstraintSpine_M
+  - first:
+      1: 100128
+    second: robot_rig_0003:FKIKSystem
+  - first:
+      1: 100130
+    second: robot_rig_0003:FKKnee_L
+  - first:
+      1: 100132
+    second: robot_rig_0003:FKKnee_R
+  - first:
+      1: 100134
+    second: robot_rig_0003:FKOffsetAnkle_L
+  - first:
+      1: 100136
+    second: robot_rig_0003:FKOffsetAnkle_R
+  - first:
+      1: 100138
+    second: robot_rig_0003:FKOffsetHip_L
+  - first:
+      1: 100140
+    second: robot_rig_0003:FKOffsetHip_R
+  - first:
+      1: 100142
+    second: robot_rig_0003:FKOffsetIndexFinger1_L
+  - first:
+      1: 100144
+    second: robot_rig_0003:FKOffsetIndexFinger1_R
+  - first:
+      1: 100146
+    second: robot_rig_0003:FKOffsetKnee_L
+  - first:
+      1: 100148
+    second: robot_rig_0003:FKOffsetKnee_R
+  - first:
+      1: 100150
+    second: robot_rig_0003:FKOffsetMiddleFinger1_L
+  - first:
+      1: 100152
+    second: robot_rig_0003:FKOffsetMiddleFinger1_R
+  - first:
+      1: 100154
+    second: robot_rig_0003:FKOffsetNeck_M
+  - first:
+      1: 100156
+    second: robot_rig_0003:FKOffsetPinkyFinger1_L
+  - first:
+      1: 100158
+    second: robot_rig_0003:FKOffsetPinkyFinger1_R
+  - first:
+      1: 100160
+    second: robot_rig_0003:FKOffsetRingFinger1_L
+  - first:
+      1: 100162
+    second: robot_rig_0003:FKOffsetRingFinger1_R
+  - first:
+      1: 100164
+    second: robot_rig_0003:FKOffsetRoot_M
+  - first:
+      1: 100166
+    second: robot_rig_0003:FKOffsetScapula_L
+  - first:
+      1: 100168
+    second: robot_rig_0003:FKOffsetScapula_R
+  - first:
+      1: 100170
+    second: robot_rig_0003:FKOffsetShoulder_L
+  - first:
+      1: 100172
+    second: robot_rig_0003:FKOffsetShoulder_R
+  - first:
+      1: 100174
+    second: robot_rig_0003:FKOffsetThumbFinger1_L
+  - first:
+      1: 100176
+    second: robot_rig_0003:FKOffsetThumbFinger1_R
+  - first:
+      1: 100178
+    second: robot_rig_0003:FKOffsetToes_L
+  - first:
+      1: 100180
+    second: robot_rig_0003:FKOffsetToes_R
+  - first:
+      1: 100182
+    second: robot_rig_0003:FKParentConstraintToChest_M
+  - first:
+      1: 100184
+    second: robot_rig_0003:FKParentConstraintToRoot_M
+  - first:
+      1: 100186
+    second: robot_rig_0003:FKParentConstraintToScapula_L
+  - first:
+      1: 100188
+    second: robot_rig_0003:FKParentConstraintToScapula_R
+  - first:
+      1: 100190
+    second: robot_rig_0003:FKParentConstraintToWrist_L
+  - first:
+      1: 100192
+    second: robot_rig_0003:FKParentConstraintToWrist_R
+  - first:
+      1: 100194
+    second: robot_rig_0003:FKSystem
+  - first:
+      1: 100196
+    second: robot_rig_0003:FKToes_L
+  - first:
+      1: 100198
+    second: robot_rig_0003:FKToes_R
+  - first:
+      1: 100200
+    second: robot_rig_0003:FKXAnkle_L
+  - first:
+      1: 100202
+    second: robot_rig_0003:FKXAnkle_R
+  - first:
+      1: 100204
+    second: robot_rig_0003:FKXHip_L
+  - first:
+      1: 100206
+    second: robot_rig_0003:FKXHip_R
+  - first:
+      1: 100208
+    second: robot_rig_0003:FKXKnee_L
+  - first:
+      1: 100210
+    second: robot_rig_0003:FKXKnee_R
+  - first:
+      1: 100212
+    second: robot_rig_0003:FKXToes_L
+  - first:
+      1: 100214
+    second: robot_rig_0003:FKXToes_R
+  - first:
+      1: 100216
+    second: robot_rig_0003:Geometry
+  - first:
+      1: 100218
+    second: robot_rig_0003:GlobalHead_M
+  - first:
+      1: 100220
+    second: robot_rig_0003:GlobalOffsetHead_M
+  - first:
+      1: 100222
+    second: robot_rig_0003:GlobalSystem
+  - first:
+      1: 100224
+    second: robot_rig_0003:Group
+  - first:
+      1: 100226
+    second: robot_rig_0003:group2
+  - first:
+      1: 100228
+    second: robot_rig_0003:group3
+  - first:
+      1: 100230
+    second: robot_rig_0003:Head
+  - first:
+      1: 100232
+    second: robot_rig_0003:Head_M
+  - first:
+      1: 100234
+    second: robot_rig_0003:HeadEnd
+  - first:
+      1: 100236
+    second: robot_rig_0003:HeadEnd_M
+  - first:
+      1: 100238
+    second: robot_rig_0003:Heel
+  - first:
+      1: 100240
+    second: robot_rig_0003:Hip
+  - first:
+      1: 100242
+    second: robot_rig_0003:Hip_L
+  - first:
+      1: 100244
+    second: robot_rig_0003:Hip_R
+  - first:
+      1: 100246
+    second: robot_rig_0003:IKArm_L
+  - first:
+      1: 100248
+    second: robot_rig_0003:IKArm_R
+  - first:
+      1: 100250
+    second: robot_rig_0003:IKArmHandle_L
+  - first:
+      1: 100252
+    second: robot_rig_0003:IKArmHandle_R
+  - first:
+      1: 100254
+    second: robot_rig_0003:IKCurve
+  - first:
+      1: 100256
+    second: robot_rig_0003:IKdistanceArm_L
+  - first:
+      1: 100258
+    second: robot_rig_0003:IKdistanceArm_R
+  - first:
+      1: 100260
+    second: robot_rig_0003:IKdistanceLeg_L
+  - first:
+      1: 100262
+    second: robot_rig_0003:IKdistanceLeg_R
+  - first:
+      1: 100264
+    second: robot_rig_0003:IKExtraArm_L
+  - first:
+      1: 100266
+    second: robot_rig_0003:IKExtraArm_R
+  - first:
+      1: 100268
+    second: robot_rig_0003:IKExtraLeg_L
+  - first:
+      1: 100270
+    second: robot_rig_0003:IKExtraLeg_R
+  - first:
+      1: 100272
+    second: robot_rig_0003:IKExtraSpine1_M
+  - first:
+      1: 100274
+    second: robot_rig_0003:IKExtraSpine2_M
+  - first:
+      1: 100276
+    second: robot_rig_0003:IKfake0Spine_M
+  - first:
+      1: 100278
+    second: robot_rig_0003:IKfake1Spine_M
+  - first:
+      1: 100280
+    second: robot_rig_0003:IKFake1UpLocSpine_M
+  - first:
+      1: 100282
+    second: robot_rig_0003:IKfake2Spine_M
+  - first:
+      1: 100284
+    second: robot_rig_0003:IKfake3Spine_M
+  - first:
+      1: 100286
+    second: robot_rig_0003:IKFKAlignedArm_L
+  - first:
+      1: 100288
+    second: robot_rig_0003:IKFKAlignedArm_R
+  - first:
+      1: 100290
+    second: robot_rig_0003:IKFKAlignedOffsetArm_L
+  - first:
+      1: 100292
+    second: robot_rig_0003:IKFKAlignedOffsetArm_R
+  - first:
+      1: 100294
+    second: robot_rig_0003:IKFollow
+  - first:
+      1: 100296
+    second: robot_rig_0003:IKHandle
+  - first:
+      1: 100298
+    second: robot_rig_0003:IKJoints
+  - first:
+      1: 100300
+    second: robot_rig_0003:IKMessure
+  - first:
+      1: 100302
+    second: robot_rig_0003:IKmessureConstrainToArm_L
+  - first:
+      1: 100304
+    second: robot_rig_0003:IKmessureConstrainToArm_R
+  - first:
+      1: 100306
+    second: robot_rig_0003:IKMessureFromHip_L
+  - first:
+      1: 100308
+    second: robot_rig_0003:IKMessureFromHip_R
+  - first:
+      1: 100310
+    second: robot_rig_0003:IKMessureFromShoulder_L
+  - first:
+      1: 100312
+    second: robot_rig_0003:IKMessureFromShoulder_R
+  - first:
+      1: 100314
+    second: robot_rig_0003:IKmessureLoc1Arm_L
+  - first:
+      1: 100316
+    second: robot_rig_0003:IKmessureLoc1Arm_R
+  - first:
+      1: 100318
+    second: robot_rig_0003:IKmessureLoc1Leg_L
+  - first:
+      1: 100320
+    second: robot_rig_0003:IKmessureLoc1Leg_R
+  - first:
+      1: 100322
+    second: robot_rig_0003:IKmessureLoc2Arm_L
+  - first:
+      1: 100324
+    second: robot_rig_0003:IKmessureLoc2Arm_R
+  - first:
+      1: 100326
+    second: robot_rig_0003:IKmessureLoc2Leg_L
+  - first:
+      1: 100328
+    second: robot_rig_0003:IKmessureLoc2Leg_R
+  - first:
+      1: 100330
+    second: robot_rig_0003:IKOffsetArm_L
+  - first:
+      1: 100332
+    second: robot_rig_0003:IKOffsetArm_LFollow
+  - first:
+      1: 100334
+    second: robot_rig_0003:IKOffsetArm_LFollowNoScale
+  - first:
+      1: 100336
+    second: robot_rig_0003:IKOffsetArm_LStatic
+  - first:
+      1: 100338
+    second: robot_rig_0003:IKOffsetArm_R
+  - first:
+      1: 100340
+    second: robot_rig_0003:IKOffsetArm_RFollow
+  - first:
+      1: 100342
+    second: robot_rig_0003:IKOffsetArm_RFollowNoScale
+  - first:
+      1: 100344
+    second: robot_rig_0003:IKOffsetArm_RStatic
+  - first:
+      1: 100346
+    second: robot_rig_0003:IKOffsetLeg_L
+  - first:
+      1: 100348
+    second: robot_rig_0003:IKOffsetLeg_R
+  - first:
+      1: 100350
+    second: robot_rig_0003:IKOffsetSpine1_M
+  - first:
+      1: 100352
+    second: robot_rig_0003:IKOffsetSpine2_M
+  - first:
+      1: 100354
+    second: robot_rig_0003:IKParentConstraintHip_L
+  - first:
+      1: 100356
+    second: robot_rig_0003:IKParentConstraintHip_R
+  - first:
+      1: 100358
+    second: robot_rig_0003:IKParentConstraintRoot_M
+  - first:
+      1: 100360
+    second: robot_rig_0003:IKParentConstraintShoulder_L
+  - first:
+      1: 100362
+    second: robot_rig_0003:IKParentConstraintShoulder_R
+  - first:
+      1: 100364
+    second: robot_rig_0003:IKRootConstraint
+  - first:
+      1: 100366
+    second: robot_rig_0003:IKScalerChest_M
+  - first:
+      1: 100368
+    second: robot_rig_0003:IKScalerRoot_M
+  - first:
+      1: 100370
+    second: robot_rig_0003:IKScalerSpine1_M
+  - first:
+      1: 100372
+    second: robot_rig_0003:IKSpChest_M
+  - first:
+      1: 100374
+    second: robot_rig_0003:IKSpChestFollowOffset_M
+  - first:
+      1: 100376
+    second: robot_rig_0003:IKSpine0AlignTo_M
+  - first:
+      1: 100378
+    second: robot_rig_0003:IKSpine1_M
+  - first:
+      1: 100380
+    second: robot_rig_0003:IKSpine2_M
+  - first:
+      1: 100382
+    second: robot_rig_0003:IKSpine2AlignTo_M
+  - first:
+      1: 100384
+    second: robot_rig_0003:IKSpine2AlignUnIKTwistTo_M
+  - first:
+      1: 100386
+    second: robot_rig_0003:IKSpine2AlignUnIKTwistToOffset_M
+  - first:
+      1: 100388
+    second: robot_rig_0003:IKSpineCurve_M
+  - first:
+      1: 100390
+    second: robot_rig_0003:IKSpineHandle_M
+  - first:
+      1: 100392
+    second: robot_rig_0003:IKSpineLocator0_M
+  - first:
+      1: 100394
+    second: robot_rig_0003:IKSpineLocator1_M
+  - first:
+      1: 100396
+    second: robot_rig_0003:IKSpineLocator2_M
+  - first:
+      1: 100398
+    second: robot_rig_0003:IKSpineLocator3_M
+  - first:
+      1: 100400
+    second: robot_rig_0003:IKSpRoot_M
+  - first:
+      1: 100402
+    second: robot_rig_0003:IKSpRootFollowOffset_M
+  - first:
+      1: 100404
+    second: robot_rig_0003:IKSpSpine1_M
+  - first:
+      1: 100406
+    second: robot_rig_0003:IKSpSpine1FollowOffset_M
+  - first:
+      1: 100408
+    second: robot_rig_0003:IKSpSpineOffset_M
+  - first:
+      1: 100410
+    second: robot_rig_0003:IKStatic
+  - first:
+      1: 100412
+    second: robot_rig_0003:IKStiffOrientSpine1_M
+  - first:
+      1: 100414
+    second: robot_rig_0003:IKStiffOrientSpine2_M
+  - first:
+      1: 100416
+    second: robot_rig_0003:IKSystem
+  - first:
+      1: 100418
+    second: robot_rig_0003:IKX2Ankle_L
+  - first:
+      1: 100420
+    second: robot_rig_0003:IKX2Ankle_R
+  - first:
+      1: 100422
+    second: robot_rig_0003:IKX2Chest_M
+  - first:
+      1: 100424
+    second: robot_rig_0003:IKX2Elbow_L
+  - first:
+      1: 100426
+    second: robot_rig_0003:IKX2Elbow_R
+  - first:
+      1: 100428
+    second: robot_rig_0003:IKX2Hip_L
+  - first:
+      1: 100430
+    second: robot_rig_0003:IKX2Hip_R
+  - first:
+      1: 100432
+    second: robot_rig_0003:IKX2Knee_L
+  - first:
+      1: 100434
+    second: robot_rig_0003:IKX2Knee_R
+  - first:
+      1: 100436
+    second: robot_rig_0003:IKX2Root_M
+  - first:
+      1: 100438
+    second: robot_rig_0003:IKX2Shoulder_L
+  - first:
+      1: 100440
+    second: robot_rig_0003:IKX2Shoulder_R
+  - first:
+      1: 100442
+    second: robot_rig_0003:IKX2Spine1_M
+  - first:
+      1: 100444
+    second: robot_rig_0003:IKX2Toes_L
+  - first:
+      1: 100446
+    second: robot_rig_0003:IKX2Toes_R
+  - first:
+      1: 100448
+    second: robot_rig_0003:IKX2ToesEnd_L
+  - first:
+      1: 100450
+    second: robot_rig_0003:IKX2ToesEnd_R
+  - first:
+      1: 100452
+    second: robot_rig_0003:IKX2Wrist_L
+  - first:
+      1: 100454
+    second: robot_rig_0003:IKX2Wrist_R
+  - first:
+      1: 100456
+    second: robot_rig_0003:IKXAnkle_L
+  - first:
+      1: 100458
+    second: robot_rig_0003:IKXAnkle_R
+  - first:
+      1: 100460
+    second: robot_rig_0003:IKXChest_M
+  - first:
+      1: 100462
+    second: robot_rig_0003:IKXElbow_L
+  - first:
+      1: 100464
+    second: robot_rig_0003:IKXElbow_R
+  - first:
+      1: 100466
+    second: robot_rig_0003:IKXHip_L
+  - first:
+      1: 100468
+    second: robot_rig_0003:IKXHip_R
+  - first:
+      1: 100470
+    second: robot_rig_0003:IKXKnee_L
+  - first:
+      1: 100472
+    second: robot_rig_0003:IKXKnee_R
+  - first:
+      1: 100474
+    second: robot_rig_0003:IKXOffsetHip_L
+  - first:
+      1: 100476
+    second: robot_rig_0003:IKXOffsetHip_R
+  - first:
+      1: 100478
+    second: robot_rig_0003:IKXOffsetRoot_M
+  - first:
+      1: 100480
+    second: robot_rig_0003:IKXOffsetShoulder_L
+  - first:
+      1: 100482
+    second: robot_rig_0003:IKXOffsetShoulder_R
+  - first:
+      1: 100484
+    second: robot_rig_0003:IKXRoot_M
+  - first:
+      1: 100486
+    second: robot_rig_0003:IKXShoulder_L
+  - first:
+      1: 100488
+    second: robot_rig_0003:IKXShoulder_R
+  - first:
+      1: 100490
+    second: robot_rig_0003:IKXSpine1_M
+  - first:
+      1: 100492
+    second: robot_rig_0003:IKXToes_L
+  - first:
+      1: 100494
+    second: robot_rig_0003:IKXToes_R
+  - first:
+      1: 100496
+    second: robot_rig_0003:IKXToesEnd_L
+  - first:
+      1: 100498
+    second: robot_rig_0003:IKXToesEnd_R
+  - first:
+      1: 100500
+    second: robot_rig_0003:IKXWrist_L
+  - first:
+      1: 100502
+    second: robot_rig_0003:IKXWrist_R
+  - first:
+      1: 100504
+    second: robot_rig_0003:IndexFinger1
+  - first:
+      1: 100506
+    second: robot_rig_0003:IndexFinger1_L
+  - first:
+      1: 100508
+    second: robot_rig_0003:IndexFinger1_R
+  - first:
+      1: 100510
+    second: robot_rig_0003:IndexFinger2
+  - first:
+      1: 100512
+    second: robot_rig_0003:IndexFinger2_L
+  - first:
+      1: 100514
+    second: robot_rig_0003:IndexFinger2_R
+  - first:
+      1: 100516
+    second: robot_rig_0003:IndexFinger3
+  - first:
+      1: 100518
+    second: robot_rig_0003:IndexFinger3_L
+  - first:
+      1: 100520
+    second: robot_rig_0003:IndexFinger3_R
+  - first:
+      1: 100522
+    second: robot_rig_0003:IndexFinger4
+  - first:
+      1: 100524
+    second: robot_rig_0003:IndexFinger4_L
+  - first:
+      1: 100526
+    second: robot_rig_0003:IndexFinger4_R
+  - first:
+      1: 100528
+    second: robot_rig_0003:Jaw
+  - first:
+      1: 100530
+    second: robot_rig_0003:Jaw_M
+  - first:
+      1: 100532
+    second: robot_rig_0003:JawEnd
+  - first:
+      1: 100534
+    second: robot_rig_0003:JawEnd_M
+  - first:
+      1: 100536
+    second: robot_rig_0003:jnt_L_ear
+  - first:
+      1: 100538
+    second: robot_rig_0003:jnt_R_ear
+  - first:
+      1: 100540
+    second: robot_rig_0003:Knee
+  - first:
+      1: 100542
+    second: robot_rig_0003:Knee_L
+  - first:
+      1: 100544
+    second: robot_rig_0003:Knee_R
+  - first:
+      1: 100546
+    second: robot_rig_0003:LegLockConstrained
+  - first:
+      1: 100548
+    second: robot_rig_0003:Main
+  - first:
+      1: 100550
+    second: robot_rig_0003:MiddleFinger1
+  - first:
+      1: 100552
+    second: robot_rig_0003:MiddleFinger1_L
+  - first:
+      1: 100554
+    second: robot_rig_0003:MiddleFinger1_R
+  - first:
+      1: 100556
+    second: robot_rig_0003:MiddleFinger2
+  - first:
+      1: 100558
+    second: robot_rig_0003:MiddleFinger2_L
+  - first:
+      1: 100560
+    second: robot_rig_0003:MiddleFinger2_R
+  - first:
+      1: 100562
+    second: robot_rig_0003:MiddleFinger3
+  - first:
+      1: 100564
+    second: robot_rig_0003:MiddleFinger3_L
+  - first:
+      1: 100566
+    second: robot_rig_0003:MiddleFinger3_R
+  - first:
+      1: 100568
+    second: robot_rig_0003:MiddleFinger4
+  - first:
+      1: 100570
+    second: robot_rig_0003:MiddleFinger4_L
+  - first:
+      1: 100572
+    second: robot_rig_0003:MiddleFinger4_R
+  - first:
+      1: 100574
+    second: robot_rig_0003:MotionSystem
+  - first:
+      1: 100576
+    second: robot_rig_0003:Neck
+  - first:
+      1: 100578
+    second: robot_rig_0003:Neck_M
+  - first:
+      1: 100580
+    second: robot_rig_0003:PinkyFinger1
+  - first:
+      1: 100582
+    second: robot_rig_0003:PinkyFinger1_L
+  - first:
+      1: 100584
+    second: robot_rig_0003:PinkyFinger1_R
+  - first:
+      1: 100586
+    second: robot_rig_0003:PinkyFinger2
+  - first:
+      1: 100588
+    second: robot_rig_0003:PinkyFinger2_L
+  - first:
+      1: 100590
+    second: robot_rig_0003:PinkyFinger2_R
+  - first:
+      1: 100592
+    second: robot_rig_0003:PinkyFinger3
+  - first:
+      1: 100594
+    second: robot_rig_0003:PinkyFinger3_L
+  - first:
+      1: 100596
+    second: robot_rig_0003:PinkyFinger3_R
+  - first:
+      1: 100598
+    second: robot_rig_0003:PinkyFinger4
+  - first:
+      1: 100600
+    second: robot_rig_0003:PinkyFinger4_L
+  - first:
+      1: 100602
+    second: robot_rig_0003:PinkyFinger4_R
+  - first:
+      1: 100604
+    second: robot_rig_0003:PoleAimLeg_L
+  - first:
+      1: 100606
+    second: robot_rig_0003:PoleAimLeg_R
+  - first:
+      1: 100608
+    second: robot_rig_0003:PoleAnnotationArm_L
+  - first:
+      1: 100610
+    second: robot_rig_0003:PoleAnnotationArm_R
+  - first:
+      1: 100612
+    second: robot_rig_0003:PoleAnnotationLeg_L
+  - first:
+      1: 100614
+    second: robot_rig_0003:PoleAnnotationLeg_R
+  - first:
+      1: 100616
+    second: robot_rig_0003:PoleArm_L
+  - first:
+      1: 100618
+    second: robot_rig_0003:PoleArm_R
+  - first:
+      1: 100620
+    second: robot_rig_0003:PoleExtraArm_L
+  - first:
+      1: 100622
+    second: robot_rig_0003:PoleExtraArm_R
+  - first:
+      1: 100624
+    second: robot_rig_0003:PoleExtraLeg_L
+  - first:
+      1: 100626
+    second: robot_rig_0003:PoleExtraLeg_R
+  - first:
+      1: 100628
+    second: robot_rig_0003:PoleOffsetArm_L
+  - first:
+      1: 100630
+    second: robot_rig_0003:PoleOffsetArm_LFollow
+  - first:
+      1: 100632
+    second: robot_rig_0003:PoleOffsetArm_LFollowNoScale
+  - first:
+      1: 100634
+    second: robot_rig_0003:PoleOffsetArm_LStatic
+  - first:
+      1: 100636
+    second: robot_rig_0003:PoleOffsetArm_R
+  - first:
+      1: 100638
+    second: robot_rig_0003:PoleOffsetArm_RFollow
+  - first:
+      1: 100640
+    second: robot_rig_0003:PoleOffsetArm_RFollowNoScale
+  - first:
+      1: 100642
+    second: robot_rig_0003:PoleOffsetArm_RStatic
+  - first:
+      1: 100644
+    second: robot_rig_0003:PoleOffsetLeg_L
+  - first:
+      1: 100646
+    second: robot_rig_0003:PoleOffsetLeg_LFollow
+  - first:
+      1: 100648
+    second: robot_rig_0003:PoleOffsetLeg_LFollowNoScale
+  - first:
+      1: 100650
+    second: robot_rig_0003:PoleOffsetLeg_LStatic
+  - first:
+      1: 100652
+    second: robot_rig_0003:PoleOffsetLeg_R
+  - first:
+      1: 100654
+    second: robot_rig_0003:PoleOffsetLeg_RFollow
+  - first:
+      1: 100656
+    second: robot_rig_0003:PoleOffsetLeg_RFollowNoScale
+  - first:
+      1: 100658
+    second: robot_rig_0003:PoleOffsetLeg_RStatic
+  - first:
+      1: 100660
+    second: robot_rig_0003:polySurface1
+  - first:
+      1: 100662
+    second: robot_rig_0003:polySurface10
+  - first:
+      1: 100664
+    second: robot_rig_0003:polySurface11
+  - first:
+      1: 100666
+    second: robot_rig_0003:polySurface12
+  - first:
+      1: 100668
+    second: robot_rig_0003:polySurface13
+  - first:
+      1: 100670
+    second: robot_rig_0003:polySurface14
+  - first:
+      1: 100672
+    second: robot_rig_0003:polySurface15
+  - first:
+      1: 100674
+    second: robot_rig_0003:polySurface16
+  - first:
+      1: 100676
+    second: robot_rig_0003:polySurface17
+  - first:
+      1: 100678
+    second: robot_rig_0003:polySurface18
+  - first:
+      1: 100680
+    second: robot_rig_0003:polySurface19
+  - first:
+      1: 100682
+    second: robot_rig_0003:polySurface2
+  - first:
+      1: 100684
+    second: robot_rig_0003:polySurface20
+  - first:
+      1: 100686
+    second: robot_rig_0003:polySurface21
+  - first:
+      1: 100688
+    second: robot_rig_0003:polySurface22
+  - first:
+      1: 100690
+    second: robot_rig_0003:polySurface23
+  - first:
+      1: 100692
+    second: robot_rig_0003:polySurface24
+  - first:
+      1: 100694
+    second: robot_rig_0003:polySurface25
+  - first:
+      1: 100696
+    second: robot_rig_0003:polySurface26
+  - first:
+      1: 100698
+    second: robot_rig_0003:polySurface27
+  - first:
+      1: 100700
+    second: robot_rig_0003:polySurface28
+  - first:
+      1: 100702
+    second: robot_rig_0003:polySurface29
+  - first:
+      1: 100704
+    second: robot_rig_0003:polySurface3
+  - first:
+      1: 100706
+    second: robot_rig_0003:polySurface30
+  - first:
+      1: 100708
+    second: robot_rig_0003:polySurface31
+  - first:
+      1: 100710
+    second: robot_rig_0003:polySurface32
+  - first:
+      1: 100712
+    second: robot_rig_0003:polySurface33
+  - first:
+      1: 100714
+    second: robot_rig_0003:polySurface34
+  - first:
+      1: 100716
+    second: robot_rig_0003:polySurface35
+  - first:
+      1: 100718
+    second: robot_rig_0003:polySurface36
+  - first:
+      1: 100720
+    second: robot_rig_0003:polySurface37
+  - first:
+      1: 100722
+    second: robot_rig_0003:polySurface38
+  - first:
+      1: 100724
+    second: robot_rig_0003:polySurface4
+  - first:
+      1: 100726
+    second: robot_rig_0003:polySurface5
+  - first:
+      1: 100728
+    second: robot_rig_0003:polySurface6
+  - first:
+      1: 100730
+    second: robot_rig_0003:polySurface7
+  - first:
+      1: 100732
+    second: robot_rig_0003:polySurface8
+  - first:
+      1: 100734
+    second: robot_rig_0003:polySurface9
+  - first:
+      1: 100736
+    second: robot_rig_0003:RingFinger1
+  - first:
+      1: 100738
+    second: robot_rig_0003:RingFinger2
+  - first:
+      1: 100740
+    second: robot_rig_0003:RingFinger3
+  - first:
+      1: 100742
+    second: robot_rig_0003:RingFinger4
+  - first:
+      1: 100744
+    second: robot_rig_0003:robot
+  - first:
+      1: 100746
+    second: robot_rig_0003:Root
+  - first:
+      1: 100748
+    second: robot_rig_0003:Root_M
+  - first:
+      1: 100750
+    second: robot_rig_0003:RootExtraX_M
+  - first:
+      1: 100752
+    second: robot_rig_0003:RootOffsetX_M
+  - first:
+      1: 100754
+    second: robot_rig_0003:RootSystem
+  - first:
+      1: 100756
+    second: robot_rig_0003:Scapula
+  - first:
+      1: 100758
+    second: robot_rig_0003:Scapula_L
+  - first:
+      1: 100760
+    second: robot_rig_0003:Scapula_R
+  - first:
+      1: 100762
+    second: robot_rig_0003:SDK1FKIndexFinger1_L
+  - first:
+      1: 100764
+    second: robot_rig_0003:SDK1FKIndexFinger1_R
+  - first:
+      1: 100766
+    second: robot_rig_0003:SDK1FKMiddleFinger1_L
+  - first:
+      1: 100768
+    second: robot_rig_0003:SDK1FKMiddleFinger1_R
+  - first:
+      1: 100770
+    second: robot_rig_0003:SDK1FKPinkyFinger1_L
+  - first:
+      1: 100772
+    second: robot_rig_0003:SDK1FKPinkyFinger1_R
+  - first:
+      1: 100774
+    second: robot_rig_0003:SDK1FKRingFinger1_L
+  - first:
+      1: 100776
+    second: robot_rig_0003:SDK1FKRingFinger1_R
+  - first:
+      1: 100778
+    second: robot_rig_0003:SDK2FKIndexFinger1_L
+  - first:
+      1: 100780
+    second: robot_rig_0003:SDK2FKIndexFinger1_R
+  - first:
+      1: 100782
+    second: robot_rig_0003:SDK2FKPinkyFinger1_L
+  - first:
+      1: 100784
+    second: robot_rig_0003:SDK2FKPinkyFinger1_R
+  - first:
+      1: 100786
+    second: robot_rig_0003:SDK2FKRingFinger1_L
+  - first:
+      1: 100788
+    second: robot_rig_0003:SDK2FKRingFinger1_R
+  - first:
+      1: 100790
+    second: robot_rig_0003:Shoulder
+  - first:
+      1: 100792
+    second: robot_rig_0003:Shoulder_L
+  - first:
+      1: 100794
+    second: robot_rig_0003:Shoulder_R
+  - first:
+      1: 100796
+    second: robot_rig_0003:ShoulderPart1_L
+  - first:
+      1: 100798
+    second: robot_rig_0003:ShoulderPart1_R
+  - first:
+      1: 100800
+    second: robot_rig_0003:ShoulderPart2_L
+  - first:
+      1: 100802
+    second: robot_rig_0003:ShoulderPart2_R
+  - first:
+      1: 100804
+    second: robot_rig_0003:Spine1
+  - first:
+      1: 100806
+    second: robot_rig_0003:Spine1_M
+  - first:
+      1: 100808
+    second: robot_rig_0003:ThumbFinger1
+  - first:
+      1: 100810
+    second: robot_rig_0003:ThumbFinger1_L
+  - first:
+      1: 100812
+    second: robot_rig_0003:ThumbFinger1_R
+  - first:
+      1: 100814
+    second: robot_rig_0003:ThumbFinger2
+  - first:
+      1: 100816
+    second: robot_rig_0003:ThumbFinger2_L
+  - first:
+      1: 100818
+    second: robot_rig_0003:ThumbFinger2_R
+  - first:
+      1: 100820
+    second: robot_rig_0003:ThumbFinger3
+  - first:
+      1: 100822
+    second: robot_rig_0003:ThumbFinger3_L
+  - first:
+      1: 100824
+    second: robot_rig_0003:ThumbFinger3_R
+  - first:
+      1: 100826
+    second: robot_rig_0003:ThumbFinger4
+  - first:
+      1: 100828
+    second: robot_rig_0003:ThumbFinger4_L
+  - first:
+      1: 100830
+    second: robot_rig_0003:ThumbFinger4_R
+  - first:
+      1: 100832
+    second: robot_rig_0003:Toes
+  - first:
+      1: 100834
+    second: robot_rig_0003:Toes_L
+  - first:
+      1: 100836
+    second: robot_rig_0003:Toes_R
+  - first:
+      1: 100838
+    second: robot_rig_0003:ToesEnd
+  - first:
+      1: 100840
+    second: robot_rig_0003:ToesEnd_L
+  - first:
+      1: 100842
+    second: robot_rig_0003:ToesEnd_R
+  - first:
+      1: 100844
+    second: robot_rig_0003:transform1
+  - first:
+      1: 100846
+    second: robot_rig_0003:TwistBalancerChest_M
+  - first:
+      1: 100848
+    second: robot_rig_0003:TwistBalancerElbow_L
+  - first:
+      1: 100850
+    second: robot_rig_0003:TwistBalancerElbow_R
+  - first:
+      1: 100852
+    second: robot_rig_0003:TwistBalancerShoulder_L
+  - first:
+      1: 100854
+    second: robot_rig_0003:TwistBalancerShoulder_R
+  - first:
+      1: 100856
+    second: robot_rig_0003:TwisterElbow0_L
+  - first:
+      1: 100858
+    second: robot_rig_0003:TwisterElbow0_R
+  - first:
+      1: 100860
+    second: robot_rig_0003:TwisterElbow1_L
+  - first:
+      1: 100862
+    second: robot_rig_0003:TwisterElbow1_R
+  - first:
+      1: 100864
+    second: robot_rig_0003:TwisterElbow2_L
+  - first:
+      1: 100866
+    second: robot_rig_0003:TwisterElbow2_R
+  - first:
+      1: 100868
+    second: robot_rig_0003:TwisterShoulder0_L
+  - first:
+      1: 100870
+    second: robot_rig_0003:TwisterShoulder0_R
+  - first:
+      1: 100872
+    second: robot_rig_0003:TwisterShoulder1_L
+  - first:
+      1: 100874
+    second: robot_rig_0003:TwisterShoulder1_R
+  - first:
+      1: 100876
+    second: robot_rig_0003:TwisterShoulder2_L
+  - first:
+      1: 100878
+    second: robot_rig_0003:TwisterShoulder2_R
+  - first:
+      1: 100880
+    second: robot_rig_0003:TwistFollowChest_M
+  - first:
+      1: 100882
+    second: robot_rig_0003:TwistFollowElbow_L
+  - first:
+      1: 100884
+    second: robot_rig_0003:TwistFollowElbow_R
+  - first:
+      1: 100886
+    second: robot_rig_0003:TwistFollowOffsetChest_M
+  - first:
+      1: 100888
+    second: robot_rig_0003:TwistFollowOffsetElbow_L
+  - first:
+      1: 100890
+    second: robot_rig_0003:TwistFollowOffsetElbow_R
+  - first:
+      1: 100892
+    second: robot_rig_0003:TwistFollowOffsetShoulder_L
+  - first:
+      1: 100894
+    second: robot_rig_0003:TwistFollowOffsetShoulder_R
+  - first:
+      1: 100896
+    second: robot_rig_0003:TwistFollowParentChest_M
+  - first:
+      1: 100898
+    second: robot_rig_0003:TwistFollowParentElbow_L
+  - first:
+      1: 100900
+    second: robot_rig_0003:TwistFollowParentElbow_R
+  - first:
+      1: 100902
+    second: robot_rig_0003:TwistFollowParentOffsetChest_M
+  - first:
+      1: 100904
+    second: robot_rig_0003:TwistFollowParentOffsetElbow_L
+  - first:
+      1: 100906
+    second: robot_rig_0003:TwistFollowParentOffsetElbow_R
+  - first:
+      1: 100908
+    second: robot_rig_0003:TwistFollowParentOffsetShoulder_L
+  - first:
+      1: 100910
+    second: robot_rig_0003:TwistFollowParentOffsetShoulder_R
+  - first:
+      1: 100912
+    second: robot_rig_0003:TwistFollowParentShoulder_L
+  - first:
+      1: 100914
+    second: robot_rig_0003:TwistFollowParentShoulder_R
+  - first:
+      1: 100916
+    second: robot_rig_0003:TwistFollowShoulder_L
+  - first:
+      1: 100918
+    second: robot_rig_0003:TwistFollowShoulder_R
+  - first:
+      1: 100920
+    second: robot_rig_0003:TwistSystem
+  - first:
+      1: 100922
+    second: robot_rig_0003:UnTwistChest_M
+  - first:
+      1: 100924
+    second: robot_rig_0003:UnTwistElbow_L
+  - first:
+      1: 100926
+    second: robot_rig_0003:UnTwistElbow_R
+  - first:
+      1: 100928
+    second: robot_rig_0003:UnTwistEndChest_M
+  - first:
+      1: 100930
+    second: robot_rig_0003:UnTwistEndElbow_L
+  - first:
+      1: 100932
+    second: robot_rig_0003:UnTwistEndElbow_R
+  - first:
+      1: 100934
+    second: robot_rig_0003:UnTwistEndShoulder_L
+  - first:
+      1: 100936
+    second: robot_rig_0003:UnTwistEndShoulder_R
+  - first:
+      1: 100938
+    second: robot_rig_0003:UnTwistIKChest_M
+  - first:
+      1: 100940
+    second: robot_rig_0003:UnTwistIKElbow_L
+  - first:
+      1: 100942
+    second: robot_rig_0003:UnTwistIKElbow_R
+  - first:
+      1: 100944
+    second: robot_rig_0003:UnTwistIKShoulder_L
+  - first:
+      1: 100946
+    second: robot_rig_0003:UnTwistIKShoulder_R
+  - first:
+      1: 100948
+    second: robot_rig_0003:UnTwistShoulder_L
+  - first:
+      1: 100950
+    second: robot_rig_0003:UnTwistShoulder_R
+  - first:
+      1: 100952
+    second: robot_rig_0003:Wrist
+  - first:
+      1: 100954
+    second: robot_rig_0003:Wrist_L
+  - first:
+      1: 100956
+    second: robot_rig_0003:Wrist_R
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: robot_rig_0003:AimEye
+  - first:
+      4: 400004
+    second: robot_rig_0003:AimFollowEye
+  - first:
+      4: 400006
+    second: robot_rig_0003:AimFollowOffEye
+  - first:
+      4: 400008
+    second: robot_rig_0003:AimFollowOnEye
+  - first:
+      4: 400010
+    second: robot_rig_0003:AimOffsetEye
+  - first:
+      4: 400012
+    second: robot_rig_0003:AimSystem
+  - first:
+      4: 400014
+    second: robot_rig_0003:AlignIKToAnkle_L
+  - first:
+      4: 400016
+    second: robot_rig_0003:AlignIKToAnkle_R
+  - first:
+      4: 400018
+    second: robot_rig_0003:Ankle
+  - first:
+      4: 400020
+    second: robot_rig_0003:Ankle_L
+  - first:
+      4: 400022
+    second: robot_rig_0003:Ankle_R
+  - first:
+      4: 400024
+    second: robot_rig_0003:BendSystem
+  - first:
+      4: 400026
+    second: robot_rig_0003:Chest
+  - first:
+      4: 400028
+    second: robot_rig_0003:Chest_M
+  - first:
+      4: 400030
+    second: robot_rig_0003:ConstraintSystem
+  - first:
+      4: 400032
+    second: robot_rig_0003:DeformationSystem
+  - first:
+      4: 400034
+    second: robot_rig_0003:DrivingSystem
+  - first:
+      4: 400036
+    second: robot_rig_0003:DynamicSystem
+  - first:
+      4: 400038
+    second: robot_rig_0003:Elbow
+  - first:
+      4: 400040
+    second: robot_rig_0003:Elbow_L
+  - first:
+      4: 400042
+    second: robot_rig_0003:Elbow_R
+  - first:
+      4: 400044
+    second: robot_rig_0003:Eye
+  - first:
+      4: 400046
+    second: robot_rig_0003:Eye_L
+  - first:
+      4: 400048
+    second: robot_rig_0003:Eye_R
+  - first:
+      4: 400050
+    second: robot_rig_0003:EyeEnd
+  - first:
+      4: 400052
+    second: robot_rig_0003:EyeEnd_L
+  - first:
+      4: 400054
+    second: robot_rig_0003:EyeEnd_R
+  - first:
+      4: 400056
+    second: robot_rig_0003:FitSkeleton
+  - first:
+      4: 400058
+    second: robot_rig_0003:FKAnkle_L
+  - first:
+      4: 400060
+    second: robot_rig_0003:FKAnkle_R
+  - first:
+      4: 400062
+    second: robot_rig_0003:FKExtraAnkle_L
+  - first:
+      4: 400064
+    second: robot_rig_0003:FKExtraAnkle_R
+  - first:
+      4: 400066
+    second: robot_rig_0003:FKExtraHip_L
+  - first:
+      4: 400068
+    second: robot_rig_0003:FKExtraHip_R
+  - first:
+      4: 400070
+    second: robot_rig_0003:FKExtraIndexFinger1_L
+  - first:
+      4: 400072
+    second: robot_rig_0003:FKExtraIndexFinger1_R
+  - first:
+      4: 400074
+    second: robot_rig_0003:FKExtraKnee_L
+  - first:
+      4: 400076
+    second: robot_rig_0003:FKExtraKnee_R
+  - first:
+      4: 400078
+    second: robot_rig_0003:FKExtraMiddleFinger1_L
+  - first:
+      4: 400080
+    second: robot_rig_0003:FKExtraMiddleFinger1_R
+  - first:
+      4: 400082
+    second: robot_rig_0003:FKExtraNeck_M
+  - first:
+      4: 400084
+    second: robot_rig_0003:FKExtraPinkyFinger1_L
+  - first:
+      4: 400086
+    second: robot_rig_0003:FKExtraPinkyFinger1_R
+  - first:
+      4: 400088
+    second: robot_rig_0003:FKExtraRingFinger1_L
+  - first:
+      4: 400090
+    second: robot_rig_0003:FKExtraRingFinger1_R
+  - first:
+      4: 400092
+    second: robot_rig_0003:FKExtraRoot_M
+  - first:
+      4: 400094
+    second: robot_rig_0003:FKExtraScapula_L
+  - first:
+      4: 400096
+    second: robot_rig_0003:FKExtraScapula_R
+  - first:
+      4: 400098
+    second: robot_rig_0003:FKExtraShoulder_L
+  - first:
+      4: 400100
+    second: robot_rig_0003:FKExtraShoulder_R
+  - first:
+      4: 400102
+    second: robot_rig_0003:FKExtraThumbFinger1_L
+  - first:
+      4: 400104
+    second: robot_rig_0003:FKExtraThumbFinger1_R
+  - first:
+      4: 400106
+    second: robot_rig_0003:FKExtraToes_L
+  - first:
+      4: 400108
+    second: robot_rig_0003:FKExtraToes_R
+  - first:
+      4: 400110
+    second: robot_rig_0003:FKHip_L
+  - first:
+      4: 400112
+    second: robot_rig_0003:FKHip_R
+  - first:
+      4: 400114
+    second: robot_rig_0003:FKIKMixElbow_L
+  - first:
+      4: 400116
+    second: robot_rig_0003:FKIKMixElbow_R
+  - first:
+      4: 400118
+    second: robot_rig_0003:FKIKParentConstraintArm_L
+  - first:
+      4: 400120
+    second: robot_rig_0003:FKIKParentConstraintArm_R
+  - first:
+      4: 400122
+    second: robot_rig_0003:FKIKParentConstraintLeg_L
+  - first:
+      4: 400124
+    second: robot_rig_0003:FKIKParentConstraintLeg_R
+  - first:
+      4: 400126
+    second: robot_rig_0003:FKIKParentConstraintSpine_M
+  - first:
+      4: 400128
+    second: robot_rig_0003:FKIKSystem
+  - first:
+      4: 400130
+    second: robot_rig_0003:FKKnee_L
+  - first:
+      4: 400132
+    second: robot_rig_0003:FKKnee_R
+  - first:
+      4: 400134
+    second: robot_rig_0003:FKOffsetAnkle_L
+  - first:
+      4: 400136
+    second: robot_rig_0003:FKOffsetAnkle_R
+  - first:
+      4: 400138
+    second: robot_rig_0003:FKOffsetHip_L
+  - first:
+      4: 400140
+    second: robot_rig_0003:FKOffsetHip_R
+  - first:
+      4: 400142
+    second: robot_rig_0003:FKOffsetIndexFinger1_L
+  - first:
+      4: 400144
+    second: robot_rig_0003:FKOffsetIndexFinger1_R
+  - first:
+      4: 400146
+    second: robot_rig_0003:FKOffsetKnee_L
+  - first:
+      4: 400148
+    second: robot_rig_0003:FKOffsetKnee_R
+  - first:
+      4: 400150
+    second: robot_rig_0003:FKOffsetMiddleFinger1_L
+  - first:
+      4: 400152
+    second: robot_rig_0003:FKOffsetMiddleFinger1_R
+  - first:
+      4: 400154
+    second: robot_rig_0003:FKOffsetNeck_M
+  - first:
+      4: 400156
+    second: robot_rig_0003:FKOffsetPinkyFinger1_L
+  - first:
+      4: 400158
+    second: robot_rig_0003:FKOffsetPinkyFinger1_R
+  - first:
+      4: 400160
+    second: robot_rig_0003:FKOffsetRingFinger1_L
+  - first:
+      4: 400162
+    second: robot_rig_0003:FKOffsetRingFinger1_R
+  - first:
+      4: 400164
+    second: robot_rig_0003:FKOffsetRoot_M
+  - first:
+      4: 400166
+    second: robot_rig_0003:FKOffsetScapula_L
+  - first:
+      4: 400168
+    second: robot_rig_0003:FKOffsetScapula_R
+  - first:
+      4: 400170
+    second: robot_rig_0003:FKOffsetShoulder_L
+  - first:
+      4: 400172
+    second: robot_rig_0003:FKOffsetShoulder_R
+  - first:
+      4: 400174
+    second: robot_rig_0003:FKOffsetThumbFinger1_L
+  - first:
+      4: 400176
+    second: robot_rig_0003:FKOffsetThumbFinger1_R
+  - first:
+      4: 400178
+    second: robot_rig_0003:FKOffsetToes_L
+  - first:
+      4: 400180
+    second: robot_rig_0003:FKOffsetToes_R
+  - first:
+      4: 400182
+    second: robot_rig_0003:FKParentConstraintToChest_M
+  - first:
+      4: 400184
+    second: robot_rig_0003:FKParentConstraintToRoot_M
+  - first:
+      4: 400186
+    second: robot_rig_0003:FKParentConstraintToScapula_L
+  - first:
+      4: 400188
+    second: robot_rig_0003:FKParentConstraintToScapula_R
+  - first:
+      4: 400190
+    second: robot_rig_0003:FKParentConstraintToWrist_L
+  - first:
+      4: 400192
+    second: robot_rig_0003:FKParentConstraintToWrist_R
+  - first:
+      4: 400194
+    second: robot_rig_0003:FKSystem
+  - first:
+      4: 400196
+    second: robot_rig_0003:FKToes_L
+  - first:
+      4: 400198
+    second: robot_rig_0003:FKToes_R
+  - first:
+      4: 400200
+    second: robot_rig_0003:FKXAnkle_L
+  - first:
+      4: 400202
+    second: robot_rig_0003:FKXAnkle_R
+  - first:
+      4: 400204
+    second: robot_rig_0003:FKXHip_L
+  - first:
+      4: 400206
+    second: robot_rig_0003:FKXHip_R
+  - first:
+      4: 400208
+    second: robot_rig_0003:FKXKnee_L
+  - first:
+      4: 400210
+    second: robot_rig_0003:FKXKnee_R
+  - first:
+      4: 400212
+    second: robot_rig_0003:FKXToes_L
+  - first:
+      4: 400214
+    second: robot_rig_0003:FKXToes_R
+  - first:
+      4: 400216
+    second: robot_rig_0003:Geometry
+  - first:
+      4: 400218
+    second: robot_rig_0003:GlobalHead_M
+  - first:
+      4: 400220
+    second: robot_rig_0003:GlobalOffsetHead_M
+  - first:
+      4: 400222
+    second: robot_rig_0003:GlobalSystem
+  - first:
+      4: 400224
+    second: robot_rig_0003:Group
+  - first:
+      4: 400226
+    second: robot_rig_0003:group2
+  - first:
+      4: 400228
+    second: robot_rig_0003:group3
+  - first:
+      4: 400230
+    second: robot_rig_0003:Head
+  - first:
+      4: 400232
+    second: robot_rig_0003:Head_M
+  - first:
+      4: 400234
+    second: robot_rig_0003:HeadEnd
+  - first:
+      4: 400236
+    second: robot_rig_0003:HeadEnd_M
+  - first:
+      4: 400238
+    second: robot_rig_0003:Heel
+  - first:
+      4: 400240
+    second: robot_rig_0003:Hip
+  - first:
+      4: 400242
+    second: robot_rig_0003:Hip_L
+  - first:
+      4: 400244
+    second: robot_rig_0003:Hip_R
+  - first:
+      4: 400246
+    second: robot_rig_0003:IKArm_L
+  - first:
+      4: 400248
+    second: robot_rig_0003:IKArm_R
+  - first:
+      4: 400250
+    second: robot_rig_0003:IKArmHandle_L
+  - first:
+      4: 400252
+    second: robot_rig_0003:IKArmHandle_R
+  - first:
+      4: 400254
+    second: robot_rig_0003:IKCurve
+  - first:
+      4: 400256
+    second: robot_rig_0003:IKdistanceArm_L
+  - first:
+      4: 400258
+    second: robot_rig_0003:IKdistanceArm_R
+  - first:
+      4: 400260
+    second: robot_rig_0003:IKdistanceLeg_L
+  - first:
+      4: 400262
+    second: robot_rig_0003:IKdistanceLeg_R
+  - first:
+      4: 400264
+    second: robot_rig_0003:IKExtraArm_L
+  - first:
+      4: 400266
+    second: robot_rig_0003:IKExtraArm_R
+  - first:
+      4: 400268
+    second: robot_rig_0003:IKExtraLeg_L
+  - first:
+      4: 400270
+    second: robot_rig_0003:IKExtraLeg_R
+  - first:
+      4: 400272
+    second: robot_rig_0003:IKExtraSpine1_M
+  - first:
+      4: 400274
+    second: robot_rig_0003:IKExtraSpine2_M
+  - first:
+      4: 400276
+    second: robot_rig_0003:IKfake0Spine_M
+  - first:
+      4: 400278
+    second: robot_rig_0003:IKfake1Spine_M
+  - first:
+      4: 400280
+    second: robot_rig_0003:IKFake1UpLocSpine_M
+  - first:
+      4: 400282
+    second: robot_rig_0003:IKfake2Spine_M
+  - first:
+      4: 400284
+    second: robot_rig_0003:IKfake3Spine_M
+  - first:
+      4: 400286
+    second: robot_rig_0003:IKFKAlignedArm_L
+  - first:
+      4: 400288
+    second: robot_rig_0003:IKFKAlignedArm_R
+  - first:
+      4: 400290
+    second: robot_rig_0003:IKFKAlignedOffsetArm_L
+  - first:
+      4: 400292
+    second: robot_rig_0003:IKFKAlignedOffsetArm_R
+  - first:
+      4: 400294
+    second: robot_rig_0003:IKFollow
+  - first:
+      4: 400296
+    second: robot_rig_0003:IKHandle
+  - first:
+      4: 400298
+    second: robot_rig_0003:IKJoints
+  - first:
+      4: 400300
+    second: robot_rig_0003:IKMessure
+  - first:
+      4: 400302
+    second: robot_rig_0003:IKmessureConstrainToArm_L
+  - first:
+      4: 400304
+    second: robot_rig_0003:IKmessureConstrainToArm_R
+  - first:
+      4: 400306
+    second: robot_rig_0003:IKMessureFromHip_L
+  - first:
+      4: 400308
+    second: robot_rig_0003:IKMessureFromHip_R
+  - first:
+      4: 400310
+    second: robot_rig_0003:IKMessureFromShoulder_L
+  - first:
+      4: 400312
+    second: robot_rig_0003:IKMessureFromShoulder_R
+  - first:
+      4: 400314
+    second: robot_rig_0003:IKmessureLoc1Arm_L
+  - first:
+      4: 400316
+    second: robot_rig_0003:IKmessureLoc1Arm_R
+  - first:
+      4: 400318
+    second: robot_rig_0003:IKmessureLoc1Leg_L
+  - first:
+      4: 400320
+    second: robot_rig_0003:IKmessureLoc1Leg_R
+  - first:
+      4: 400322
+    second: robot_rig_0003:IKmessureLoc2Arm_L
+  - first:
+      4: 400324
+    second: robot_rig_0003:IKmessureLoc2Arm_R
+  - first:
+      4: 400326
+    second: robot_rig_0003:IKmessureLoc2Leg_L
+  - first:
+      4: 400328
+    second: robot_rig_0003:IKmessureLoc2Leg_R
+  - first:
+      4: 400330
+    second: robot_rig_0003:IKOffsetArm_L
+  - first:
+      4: 400332
+    second: robot_rig_0003:IKOffsetArm_LFollow
+  - first:
+      4: 400334
+    second: robot_rig_0003:IKOffsetArm_LFollowNoScale
+  - first:
+      4: 400336
+    second: robot_rig_0003:IKOffsetArm_LStatic
+  - first:
+      4: 400338
+    second: robot_rig_0003:IKOffsetArm_R
+  - first:
+      4: 400340
+    second: robot_rig_0003:IKOffsetArm_RFollow
+  - first:
+      4: 400342
+    second: robot_rig_0003:IKOffsetArm_RFollowNoScale
+  - first:
+      4: 400344
+    second: robot_rig_0003:IKOffsetArm_RStatic
+  - first:
+      4: 400346
+    second: robot_rig_0003:IKOffsetLeg_L
+  - first:
+      4: 400348
+    second: robot_rig_0003:IKOffsetLeg_R
+  - first:
+      4: 400350
+    second: robot_rig_0003:IKOffsetSpine1_M
+  - first:
+      4: 400352
+    second: robot_rig_0003:IKOffsetSpine2_M
+  - first:
+      4: 400354
+    second: robot_rig_0003:IKParentConstraintHip_L
+  - first:
+      4: 400356
+    second: robot_rig_0003:IKParentConstraintHip_R
+  - first:
+      4: 400358
+    second: robot_rig_0003:IKParentConstraintRoot_M
+  - first:
+      4: 400360
+    second: robot_rig_0003:IKParentConstraintShoulder_L
+  - first:
+      4: 400362
+    second: robot_rig_0003:IKParentConstraintShoulder_R
+  - first:
+      4: 400364
+    second: robot_rig_0003:IKRootConstraint
+  - first:
+      4: 400366
+    second: robot_rig_0003:IKScalerChest_M
+  - first:
+      4: 400368
+    second: robot_rig_0003:IKScalerRoot_M
+  - first:
+      4: 400370
+    second: robot_rig_0003:IKScalerSpine1_M
+  - first:
+      4: 400372
+    second: robot_rig_0003:IKSpChest_M
+  - first:
+      4: 400374
+    second: robot_rig_0003:IKSpChestFollowOffset_M
+  - first:
+      4: 400376
+    second: robot_rig_0003:IKSpine0AlignTo_M
+  - first:
+      4: 400378
+    second: robot_rig_0003:IKSpine1_M
+  - first:
+      4: 400380
+    second: robot_rig_0003:IKSpine2_M
+  - first:
+      4: 400382
+    second: robot_rig_0003:IKSpine2AlignTo_M
+  - first:
+      4: 400384
+    second: robot_rig_0003:IKSpine2AlignUnIKTwistTo_M
+  - first:
+      4: 400386
+    second: robot_rig_0003:IKSpine2AlignUnIKTwistToOffset_M
+  - first:
+      4: 400388
+    second: robot_rig_0003:IKSpineCurve_M
+  - first:
+      4: 400390
+    second: robot_rig_0003:IKSpineHandle_M
+  - first:
+      4: 400392
+    second: robot_rig_0003:IKSpineLocator0_M
+  - first:
+      4: 400394
+    second: robot_rig_0003:IKSpineLocator1_M
+  - first:
+      4: 400396
+    second: robot_rig_0003:IKSpineLocator2_M
+  - first:
+      4: 400398
+    second: robot_rig_0003:IKSpineLocator3_M
+  - first:
+      4: 400400
+    second: robot_rig_0003:IKSpRoot_M
+  - first:
+      4: 400402
+    second: robot_rig_0003:IKSpRootFollowOffset_M
+  - first:
+      4: 400404
+    second: robot_rig_0003:IKSpSpine1_M
+  - first:
+      4: 400406
+    second: robot_rig_0003:IKSpSpine1FollowOffset_M
+  - first:
+      4: 400408
+    second: robot_rig_0003:IKSpSpineOffset_M
+  - first:
+      4: 400410
+    second: robot_rig_0003:IKStatic
+  - first:
+      4: 400412
+    second: robot_rig_0003:IKStiffOrientSpine1_M
+  - first:
+      4: 400414
+    second: robot_rig_0003:IKStiffOrientSpine2_M
+  - first:
+      4: 400416
+    second: robot_rig_0003:IKSystem
+  - first:
+      4: 400418
+    second: robot_rig_0003:IKX2Ankle_L
+  - first:
+      4: 400420
+    second: robot_rig_0003:IKX2Ankle_R
+  - first:
+      4: 400422
+    second: robot_rig_0003:IKX2Chest_M
+  - first:
+      4: 400424
+    second: robot_rig_0003:IKX2Elbow_L
+  - first:
+      4: 400426
+    second: robot_rig_0003:IKX2Elbow_R
+  - first:
+      4: 400428
+    second: robot_rig_0003:IKX2Hip_L
+  - first:
+      4: 400430
+    second: robot_rig_0003:IKX2Hip_R
+  - first:
+      4: 400432
+    second: robot_rig_0003:IKX2Knee_L
+  - first:
+      4: 400434
+    second: robot_rig_0003:IKX2Knee_R
+  - first:
+      4: 400436
+    second: robot_rig_0003:IKX2Root_M
+  - first:
+      4: 400438
+    second: robot_rig_0003:IKX2Shoulder_L
+  - first:
+      4: 400440
+    second: robot_rig_0003:IKX2Shoulder_R
+  - first:
+      4: 400442
+    second: robot_rig_0003:IKX2Spine1_M
+  - first:
+      4: 400444
+    second: robot_rig_0003:IKX2Toes_L
+  - first:
+      4: 400446
+    second: robot_rig_0003:IKX2Toes_R
+  - first:
+      4: 400448
+    second: robot_rig_0003:IKX2ToesEnd_L
+  - first:
+      4: 400450
+    second: robot_rig_0003:IKX2ToesEnd_R
+  - first:
+      4: 400452
+    second: robot_rig_0003:IKX2Wrist_L
+  - first:
+      4: 400454
+    second: robot_rig_0003:IKX2Wrist_R
+  - first:
+      4: 400456
+    second: robot_rig_0003:IKXAnkle_L
+  - first:
+      4: 400458
+    second: robot_rig_0003:IKXAnkle_R
+  - first:
+      4: 400460
+    second: robot_rig_0003:IKXChest_M
+  - first:
+      4: 400462
+    second: robot_rig_0003:IKXElbow_L
+  - first:
+      4: 400464
+    second: robot_rig_0003:IKXElbow_R
+  - first:
+      4: 400466
+    second: robot_rig_0003:IKXHip_L
+  - first:
+      4: 400468
+    second: robot_rig_0003:IKXHip_R
+  - first:
+      4: 400470
+    second: robot_rig_0003:IKXKnee_L
+  - first:
+      4: 400472
+    second: robot_rig_0003:IKXKnee_R
+  - first:
+      4: 400474
+    second: robot_rig_0003:IKXOffsetHip_L
+  - first:
+      4: 400476
+    second: robot_rig_0003:IKXOffsetHip_R
+  - first:
+      4: 400478
+    second: robot_rig_0003:IKXOffsetRoot_M
+  - first:
+      4: 400480
+    second: robot_rig_0003:IKXOffsetShoulder_L
+  - first:
+      4: 400482
+    second: robot_rig_0003:IKXOffsetShoulder_R
+  - first:
+      4: 400484
+    second: robot_rig_0003:IKXRoot_M
+  - first:
+      4: 400486
+    second: robot_rig_0003:IKXShoulder_L
+  - first:
+      4: 400488
+    second: robot_rig_0003:IKXShoulder_R
+  - first:
+      4: 400490
+    second: robot_rig_0003:IKXSpine1_M
+  - first:
+      4: 400492
+    second: robot_rig_0003:IKXToes_L
+  - first:
+      4: 400494
+    second: robot_rig_0003:IKXToes_R
+  - first:
+      4: 400496
+    second: robot_rig_0003:IKXToesEnd_L
+  - first:
+      4: 400498
+    second: robot_rig_0003:IKXToesEnd_R
+  - first:
+      4: 400500
+    second: robot_rig_0003:IKXWrist_L
+  - first:
+      4: 400502
+    second: robot_rig_0003:IKXWrist_R
+  - first:
+      4: 400504
+    second: robot_rig_0003:IndexFinger1
+  - first:
+      4: 400506
+    second: robot_rig_0003:IndexFinger1_L
+  - first:
+      4: 400508
+    second: robot_rig_0003:IndexFinger1_R
+  - first:
+      4: 400510
+    second: robot_rig_0003:IndexFinger2
+  - first:
+      4: 400512
+    second: robot_rig_0003:IndexFinger2_L
+  - first:
+      4: 400514
+    second: robot_rig_0003:IndexFinger2_R
+  - first:
+      4: 400516
+    second: robot_rig_0003:IndexFinger3
+  - first:
+      4: 400518
+    second: robot_rig_0003:IndexFinger3_L
+  - first:
+      4: 400520
+    second: robot_rig_0003:IndexFinger3_R
+  - first:
+      4: 400522
+    second: robot_rig_0003:IndexFinger4
+  - first:
+      4: 400524
+    second: robot_rig_0003:IndexFinger4_L
+  - first:
+      4: 400526
+    second: robot_rig_0003:IndexFinger4_R
+  - first:
+      4: 400528
+    second: robot_rig_0003:Jaw
+  - first:
+      4: 400530
+    second: robot_rig_0003:Jaw_M
+  - first:
+      4: 400532
+    second: robot_rig_0003:JawEnd
+  - first:
+      4: 400534
+    second: robot_rig_0003:JawEnd_M
+  - first:
+      4: 400536
+    second: robot_rig_0003:jnt_L_ear
+  - first:
+      4: 400538
+    second: robot_rig_0003:jnt_R_ear
+  - first:
+      4: 400540
+    second: robot_rig_0003:Knee
+  - first:
+      4: 400542
+    second: robot_rig_0003:Knee_L
+  - first:
+      4: 400544
+    second: robot_rig_0003:Knee_R
+  - first:
+      4: 400546
+    second: robot_rig_0003:LegLockConstrained
+  - first:
+      4: 400548
+    second: robot_rig_0003:Main
+  - first:
+      4: 400550
+    second: robot_rig_0003:MiddleFinger1
+  - first:
+      4: 400552
+    second: robot_rig_0003:MiddleFinger1_L
+  - first:
+      4: 400554
+    second: robot_rig_0003:MiddleFinger1_R
+  - first:
+      4: 400556
+    second: robot_rig_0003:MiddleFinger2
+  - first:
+      4: 400558
+    second: robot_rig_0003:MiddleFinger2_L
+  - first:
+      4: 400560
+    second: robot_rig_0003:MiddleFinger2_R
+  - first:
+      4: 400562
+    second: robot_rig_0003:MiddleFinger3
+  - first:
+      4: 400564
+    second: robot_rig_0003:MiddleFinger3_L
+  - first:
+      4: 400566
+    second: robot_rig_0003:MiddleFinger3_R
+  - first:
+      4: 400568
+    second: robot_rig_0003:MiddleFinger4
+  - first:
+      4: 400570
+    second: robot_rig_0003:MiddleFinger4_L
+  - first:
+      4: 400572
+    second: robot_rig_0003:MiddleFinger4_R
+  - first:
+      4: 400574
+    second: robot_rig_0003:MotionSystem
+  - first:
+      4: 400576
+    second: robot_rig_0003:Neck
+  - first:
+      4: 400578
+    second: robot_rig_0003:Neck_M
+  - first:
+      4: 400580
+    second: robot_rig_0003:PinkyFinger1
+  - first:
+      4: 400582
+    second: robot_rig_0003:PinkyFinger1_L
+  - first:
+      4: 400584
+    second: robot_rig_0003:PinkyFinger1_R
+  - first:
+      4: 400586
+    second: robot_rig_0003:PinkyFinger2
+  - first:
+      4: 400588
+    second: robot_rig_0003:PinkyFinger2_L
+  - first:
+      4: 400590
+    second: robot_rig_0003:PinkyFinger2_R
+  - first:
+      4: 400592
+    second: robot_rig_0003:PinkyFinger3
+  - first:
+      4: 400594
+    second: robot_rig_0003:PinkyFinger3_L
+  - first:
+      4: 400596
+    second: robot_rig_0003:PinkyFinger3_R
+  - first:
+      4: 400598
+    second: robot_rig_0003:PinkyFinger4
+  - first:
+      4: 400600
+    second: robot_rig_0003:PinkyFinger4_L
+  - first:
+      4: 400602
+    second: robot_rig_0003:PinkyFinger4_R
+  - first:
+      4: 400604
+    second: robot_rig_0003:PoleAimLeg_L
+  - first:
+      4: 400606
+    second: robot_rig_0003:PoleAimLeg_R
+  - first:
+      4: 400608
+    second: robot_rig_0003:PoleAnnotationArm_L
+  - first:
+      4: 400610
+    second: robot_rig_0003:PoleAnnotationArm_R
+  - first:
+      4: 400612
+    second: robot_rig_0003:PoleAnnotationLeg_L
+  - first:
+      4: 400614
+    second: robot_rig_0003:PoleAnnotationLeg_R
+  - first:
+      4: 400616
+    second: robot_rig_0003:PoleArm_L
+  - first:
+      4: 400618
+    second: robot_rig_0003:PoleArm_R
+  - first:
+      4: 400620
+    second: robot_rig_0003:PoleExtraArm_L
+  - first:
+      4: 400622
+    second: robot_rig_0003:PoleExtraArm_R
+  - first:
+      4: 400624
+    second: robot_rig_0003:PoleExtraLeg_L
+  - first:
+      4: 400626
+    second: robot_rig_0003:PoleExtraLeg_R
+  - first:
+      4: 400628
+    second: robot_rig_0003:PoleOffsetArm_L
+  - first:
+      4: 400630
+    second: robot_rig_0003:PoleOffsetArm_LFollow
+  - first:
+      4: 400632
+    second: robot_rig_0003:PoleOffsetArm_LFollowNoScale
+  - first:
+      4: 400634
+    second: robot_rig_0003:PoleOffsetArm_LStatic
+  - first:
+      4: 400636
+    second: robot_rig_0003:PoleOffsetArm_R
+  - first:
+      4: 400638
+    second: robot_rig_0003:PoleOffsetArm_RFollow
+  - first:
+      4: 400640
+    second: robot_rig_0003:PoleOffsetArm_RFollowNoScale
+  - first:
+      4: 400642
+    second: robot_rig_0003:PoleOffsetArm_RStatic
+  - first:
+      4: 400644
+    second: robot_rig_0003:PoleOffsetLeg_L
+  - first:
+      4: 400646
+    second: robot_rig_0003:PoleOffsetLeg_LFollow
+  - first:
+      4: 400648
+    second: robot_rig_0003:PoleOffsetLeg_LFollowNoScale
+  - first:
+      4: 400650
+    second: robot_rig_0003:PoleOffsetLeg_LStatic
+  - first:
+      4: 400652
+    second: robot_rig_0003:PoleOffsetLeg_R
+  - first:
+      4: 400654
+    second: robot_rig_0003:PoleOffsetLeg_RFollow
+  - first:
+      4: 400656
+    second: robot_rig_0003:PoleOffsetLeg_RFollowNoScale
+  - first:
+      4: 400658
+    second: robot_rig_0003:PoleOffsetLeg_RStatic
+  - first:
+      4: 400660
+    second: robot_rig_0003:polySurface1
+  - first:
+      4: 400662
+    second: robot_rig_0003:polySurface10
+  - first:
+      4: 400664
+    second: robot_rig_0003:polySurface11
+  - first:
+      4: 400666
+    second: robot_rig_0003:polySurface12
+  - first:
+      4: 400668
+    second: robot_rig_0003:polySurface13
+  - first:
+      4: 400670
+    second: robot_rig_0003:polySurface14
+  - first:
+      4: 400672
+    second: robot_rig_0003:polySurface15
+  - first:
+      4: 400674
+    second: robot_rig_0003:polySurface16
+  - first:
+      4: 400676
+    second: robot_rig_0003:polySurface17
+  - first:
+      4: 400678
+    second: robot_rig_0003:polySurface18
+  - first:
+      4: 400680
+    second: robot_rig_0003:polySurface19
+  - first:
+      4: 400682
+    second: robot_rig_0003:polySurface2
+  - first:
+      4: 400684
+    second: robot_rig_0003:polySurface20
+  - first:
+      4: 400686
+    second: robot_rig_0003:polySurface21
+  - first:
+      4: 400688
+    second: robot_rig_0003:polySurface22
+  - first:
+      4: 400690
+    second: robot_rig_0003:polySurface23
+  - first:
+      4: 400692
+    second: robot_rig_0003:polySurface24
+  - first:
+      4: 400694
+    second: robot_rig_0003:polySurface25
+  - first:
+      4: 400696
+    second: robot_rig_0003:polySurface26
+  - first:
+      4: 400698
+    second: robot_rig_0003:polySurface27
+  - first:
+      4: 400700
+    second: robot_rig_0003:polySurface28
+  - first:
+      4: 400702
+    second: robot_rig_0003:polySurface29
+  - first:
+      4: 400704
+    second: robot_rig_0003:polySurface3
+  - first:
+      4: 400706
+    second: robot_rig_0003:polySurface30
+  - first:
+      4: 400708
+    second: robot_rig_0003:polySurface31
+  - first:
+      4: 400710
+    second: robot_rig_0003:polySurface32
+  - first:
+      4: 400712
+    second: robot_rig_0003:polySurface33
+  - first:
+      4: 400714
+    second: robot_rig_0003:polySurface34
+  - first:
+      4: 400716
+    second: robot_rig_0003:polySurface35
+  - first:
+      4: 400718
+    second: robot_rig_0003:polySurface36
+  - first:
+      4: 400720
+    second: robot_rig_0003:polySurface37
+  - first:
+      4: 400722
+    second: robot_rig_0003:polySurface38
+  - first:
+      4: 400724
+    second: robot_rig_0003:polySurface4
+  - first:
+      4: 400726
+    second: robot_rig_0003:polySurface5
+  - first:
+      4: 400728
+    second: robot_rig_0003:polySurface6
+  - first:
+      4: 400730
+    second: robot_rig_0003:polySurface7
+  - first:
+      4: 400732
+    second: robot_rig_0003:polySurface8
+  - first:
+      4: 400734
+    second: robot_rig_0003:polySurface9
+  - first:
+      4: 400736
+    second: robot_rig_0003:RingFinger1
+  - first:
+      4: 400738
+    second: robot_rig_0003:RingFinger2
+  - first:
+      4: 400740
+    second: robot_rig_0003:RingFinger3
+  - first:
+      4: 400742
+    second: robot_rig_0003:RingFinger4
+  - first:
+      4: 400744
+    second: robot_rig_0003:robot
+  - first:
+      4: 400746
+    second: robot_rig_0003:Root
+  - first:
+      4: 400748
+    second: robot_rig_0003:Root_M
+  - first:
+      4: 400750
+    second: robot_rig_0003:RootExtraX_M
+  - first:
+      4: 400752
+    second: robot_rig_0003:RootOffsetX_M
+  - first:
+      4: 400754
+    second: robot_rig_0003:RootSystem
+  - first:
+      4: 400756
+    second: robot_rig_0003:Scapula
+  - first:
+      4: 400758
+    second: robot_rig_0003:Scapula_L
+  - first:
+      4: 400760
+    second: robot_rig_0003:Scapula_R
+  - first:
+      4: 400762
+    second: robot_rig_0003:SDK1FKIndexFinger1_L
+  - first:
+      4: 400764
+    second: robot_rig_0003:SDK1FKIndexFinger1_R
+  - first:
+      4: 400766
+    second: robot_rig_0003:SDK1FKMiddleFinger1_L
+  - first:
+      4: 400768
+    second: robot_rig_0003:SDK1FKMiddleFinger1_R
+  - first:
+      4: 400770
+    second: robot_rig_0003:SDK1FKPinkyFinger1_L
+  - first:
+      4: 400772
+    second: robot_rig_0003:SDK1FKPinkyFinger1_R
+  - first:
+      4: 400774
+    second: robot_rig_0003:SDK1FKRingFinger1_L
+  - first:
+      4: 400776
+    second: robot_rig_0003:SDK1FKRingFinger1_R
+  - first:
+      4: 400778
+    second: robot_rig_0003:SDK2FKIndexFinger1_L
+  - first:
+      4: 400780
+    second: robot_rig_0003:SDK2FKIndexFinger1_R
+  - first:
+      4: 400782
+    second: robot_rig_0003:SDK2FKPinkyFinger1_L
+  - first:
+      4: 400784
+    second: robot_rig_0003:SDK2FKPinkyFinger1_R
+  - first:
+      4: 400786
+    second: robot_rig_0003:SDK2FKRingFinger1_L
+  - first:
+      4: 400788
+    second: robot_rig_0003:SDK2FKRingFinger1_R
+  - first:
+      4: 400790
+    second: robot_rig_0003:Shoulder
+  - first:
+      4: 400792
+    second: robot_rig_0003:Shoulder_L
+  - first:
+      4: 400794
+    second: robot_rig_0003:Shoulder_R
+  - first:
+      4: 400796
+    second: robot_rig_0003:ShoulderPart1_L
+  - first:
+      4: 400798
+    second: robot_rig_0003:ShoulderPart1_R
+  - first:
+      4: 400800
+    second: robot_rig_0003:ShoulderPart2_L
+  - first:
+      4: 400802
+    second: robot_rig_0003:ShoulderPart2_R
+  - first:
+      4: 400804
+    second: robot_rig_0003:Spine1
+  - first:
+      4: 400806
+    second: robot_rig_0003:Spine1_M
+  - first:
+      4: 400808
+    second: robot_rig_0003:ThumbFinger1
+  - first:
+      4: 400810
+    second: robot_rig_0003:ThumbFinger1_L
+  - first:
+      4: 400812
+    second: robot_rig_0003:ThumbFinger1_R
+  - first:
+      4: 400814
+    second: robot_rig_0003:ThumbFinger2
+  - first:
+      4: 400816
+    second: robot_rig_0003:ThumbFinger2_L
+  - first:
+      4: 400818
+    second: robot_rig_0003:ThumbFinger2_R
+  - first:
+      4: 400820
+    second: robot_rig_0003:ThumbFinger3
+  - first:
+      4: 400822
+    second: robot_rig_0003:ThumbFinger3_L
+  - first:
+      4: 400824
+    second: robot_rig_0003:ThumbFinger3_R
+  - first:
+      4: 400826
+    second: robot_rig_0003:ThumbFinger4
+  - first:
+      4: 400828
+    second: robot_rig_0003:ThumbFinger4_L
+  - first:
+      4: 400830
+    second: robot_rig_0003:ThumbFinger4_R
+  - first:
+      4: 400832
+    second: robot_rig_0003:Toes
+  - first:
+      4: 400834
+    second: robot_rig_0003:Toes_L
+  - first:
+      4: 400836
+    second: robot_rig_0003:Toes_R
+  - first:
+      4: 400838
+    second: robot_rig_0003:ToesEnd
+  - first:
+      4: 400840
+    second: robot_rig_0003:ToesEnd_L
+  - first:
+      4: 400842
+    second: robot_rig_0003:ToesEnd_R
+  - first:
+      4: 400844
+    second: robot_rig_0003:transform1
+  - first:
+      4: 400846
+    second: robot_rig_0003:TwistBalancerChest_M
+  - first:
+      4: 400848
+    second: robot_rig_0003:TwistBalancerElbow_L
+  - first:
+      4: 400850
+    second: robot_rig_0003:TwistBalancerElbow_R
+  - first:
+      4: 400852
+    second: robot_rig_0003:TwistBalancerShoulder_L
+  - first:
+      4: 400854
+    second: robot_rig_0003:TwistBalancerShoulder_R
+  - first:
+      4: 400856
+    second: robot_rig_0003:TwisterElbow0_L
+  - first:
+      4: 400858
+    second: robot_rig_0003:TwisterElbow0_R
+  - first:
+      4: 400860
+    second: robot_rig_0003:TwisterElbow1_L
+  - first:
+      4: 400862
+    second: robot_rig_0003:TwisterElbow1_R
+  - first:
+      4: 400864
+    second: robot_rig_0003:TwisterElbow2_L
+  - first:
+      4: 400866
+    second: robot_rig_0003:TwisterElbow2_R
+  - first:
+      4: 400868
+    second: robot_rig_0003:TwisterShoulder0_L
+  - first:
+      4: 400870
+    second: robot_rig_0003:TwisterShoulder0_R
+  - first:
+      4: 400872
+    second: robot_rig_0003:TwisterShoulder1_L
+  - first:
+      4: 400874
+    second: robot_rig_0003:TwisterShoulder1_R
+  - first:
+      4: 400876
+    second: robot_rig_0003:TwisterShoulder2_L
+  - first:
+      4: 400878
+    second: robot_rig_0003:TwisterShoulder2_R
+  - first:
+      4: 400880
+    second: robot_rig_0003:TwistFollowChest_M
+  - first:
+      4: 400882
+    second: robot_rig_0003:TwistFollowElbow_L
+  - first:
+      4: 400884
+    second: robot_rig_0003:TwistFollowElbow_R
+  - first:
+      4: 400886
+    second: robot_rig_0003:TwistFollowOffsetChest_M
+  - first:
+      4: 400888
+    second: robot_rig_0003:TwistFollowOffsetElbow_L
+  - first:
+      4: 400890
+    second: robot_rig_0003:TwistFollowOffsetElbow_R
+  - first:
+      4: 400892
+    second: robot_rig_0003:TwistFollowOffsetShoulder_L
+  - first:
+      4: 400894
+    second: robot_rig_0003:TwistFollowOffsetShoulder_R
+  - first:
+      4: 400896
+    second: robot_rig_0003:TwistFollowParentChest_M
+  - first:
+      4: 400898
+    second: robot_rig_0003:TwistFollowParentElbow_L
+  - first:
+      4: 400900
+    second: robot_rig_0003:TwistFollowParentElbow_R
+  - first:
+      4: 400902
+    second: robot_rig_0003:TwistFollowParentOffsetChest_M
+  - first:
+      4: 400904
+    second: robot_rig_0003:TwistFollowParentOffsetElbow_L
+  - first:
+      4: 400906
+    second: robot_rig_0003:TwistFollowParentOffsetElbow_R
+  - first:
+      4: 400908
+    second: robot_rig_0003:TwistFollowParentOffsetShoulder_L
+  - first:
+      4: 400910
+    second: robot_rig_0003:TwistFollowParentOffsetShoulder_R
+  - first:
+      4: 400912
+    second: robot_rig_0003:TwistFollowParentShoulder_L
+  - first:
+      4: 400914
+    second: robot_rig_0003:TwistFollowParentShoulder_R
+  - first:
+      4: 400916
+    second: robot_rig_0003:TwistFollowShoulder_L
+  - first:
+      4: 400918
+    second: robot_rig_0003:TwistFollowShoulder_R
+  - first:
+      4: 400920
+    second: robot_rig_0003:TwistSystem
+  - first:
+      4: 400922
+    second: robot_rig_0003:UnTwistChest_M
+  - first:
+      4: 400924
+    second: robot_rig_0003:UnTwistElbow_L
+  - first:
+      4: 400926
+    second: robot_rig_0003:UnTwistElbow_R
+  - first:
+      4: 400928
+    second: robot_rig_0003:UnTwistEndChest_M
+  - first:
+      4: 400930
+    second: robot_rig_0003:UnTwistEndElbow_L
+  - first:
+      4: 400932
+    second: robot_rig_0003:UnTwistEndElbow_R
+  - first:
+      4: 400934
+    second: robot_rig_0003:UnTwistEndShoulder_L
+  - first:
+      4: 400936
+    second: robot_rig_0003:UnTwistEndShoulder_R
+  - first:
+      4: 400938
+    second: robot_rig_0003:UnTwistIKChest_M
+  - first:
+      4: 400940
+    second: robot_rig_0003:UnTwistIKElbow_L
+  - first:
+      4: 400942
+    second: robot_rig_0003:UnTwistIKElbow_R
+  - first:
+      4: 400944
+    second: robot_rig_0003:UnTwistIKShoulder_L
+  - first:
+      4: 400946
+    second: robot_rig_0003:UnTwistIKShoulder_R
+  - first:
+      4: 400948
+    second: robot_rig_0003:UnTwistShoulder_L
+  - first:
+      4: 400950
+    second: robot_rig_0003:UnTwistShoulder_R
+  - first:
+      4: 400952
+    second: robot_rig_0003:Wrist
+  - first:
+      4: 400954
+    second: robot_rig_0003:Wrist_L
+  - first:
+      4: 400956
+    second: robot_rig_0003:Wrist_R
+  - first:
+      43: 4300000
+    second: robot_rig_0003:polySurface1
+  - first:
+      43: 4300002
+    second: robot_rig_0003:polySurface2
+  - first:
+      43: 4300004
+    second: robot_rig_0003:polySurface3
+  - first:
+      43: 4300006
+    second: robot_rig_0003:polySurface4
+  - first:
+      43: 4300008
+    second: robot_rig_0003:polySurface5
+  - first:
+      43: 4300010
+    second: robot_rig_0003:polySurface6
+  - first:
+      43: 4300012
+    second: robot_rig_0003:polySurface7
+  - first:
+      43: 4300014
+    second: robot_rig_0003:polySurface8
+  - first:
+      43: 4300016
+    second: robot_rig_0003:polySurface9
+  - first:
+      43: 4300018
+    second: robot_rig_0003:polySurface10
+  - first:
+      43: 4300020
+    second: robot_rig_0003:polySurface11
+  - first:
+      43: 4300022
+    second: robot_rig_0003:polySurface12
+  - first:
+      43: 4300024
+    second: robot_rig_0003:polySurface13
+  - first:
+      43: 4300026
+    second: robot_rig_0003:polySurface14
+  - first:
+      43: 4300028
+    second: robot_rig_0003:polySurface15
+  - first:
+      43: 4300030
+    second: robot_rig_0003:polySurface16
+  - first:
+      43: 4300032
+    second: robot_rig_0003:polySurface17
+  - first:
+      43: 4300034
+    second: robot_rig_0003:polySurface18
+  - first:
+      43: 4300036
+    second: robot_rig_0003:polySurface19
+  - first:
+      43: 4300038
+    second: robot_rig_0003:polySurface20
+  - first:
+      43: 4300040
+    second: robot_rig_0003:polySurface21
+  - first:
+      43: 4300042
+    second: robot_rig_0003:polySurface22
+  - first:
+      43: 4300044
+    second: robot_rig_0003:polySurface23
+  - first:
+      43: 4300046
+    second: robot_rig_0003:polySurface24
+  - first:
+      43: 4300048
+    second: robot_rig_0003:polySurface25
+  - first:
+      43: 4300050
+    second: robot_rig_0003:polySurface26
+  - first:
+      43: 4300052
+    second: robot_rig_0003:polySurface27
+  - first:
+      43: 4300054
+    second: robot_rig_0003:polySurface28
+  - first:
+      43: 4300056
+    second: robot_rig_0003:polySurface29
+  - first:
+      43: 4300058
+    second: robot_rig_0003:polySurface30
+  - first:
+      43: 4300060
+    second: robot_rig_0003:polySurface31
+  - first:
+      43: 4300062
+    second: robot_rig_0003:polySurface32
+  - first:
+      43: 4300064
+    second: robot_rig_0003:polySurface33
+  - first:
+      43: 4300066
+    second: robot_rig_0003:polySurface34
+  - first:
+      43: 4300068
+    second: robot_rig_0003:polySurface35
+  - first:
+      43: 4300070
+    second: robot_rig_0003:polySurface36
+  - first:
+      43: 4300072
+    second: robot_rig_0003:polySurface37
+  - first:
+      43: 4300074
+    second: robot_rig_0003:polySurface38
+  - first:
+      74: 7400000
+    second: Robot Dance
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: robot_rig_0003:polySurface1
+  - first:
+      137: 13700002
+    second: robot_rig_0003:polySurface10
+  - first:
+      137: 13700004
+    second: robot_rig_0003:polySurface11
+  - first:
+      137: 13700006
+    second: robot_rig_0003:polySurface12
+  - first:
+      137: 13700008
+    second: robot_rig_0003:polySurface13
+  - first:
+      137: 13700010
+    second: robot_rig_0003:polySurface14
+  - first:
+      137: 13700012
+    second: robot_rig_0003:polySurface15
+  - first:
+      137: 13700014
+    second: robot_rig_0003:polySurface16
+  - first:
+      137: 13700016
+    second: robot_rig_0003:polySurface17
+  - first:
+      137: 13700018
+    second: robot_rig_0003:polySurface18
+  - first:
+      137: 13700020
+    second: robot_rig_0003:polySurface19
+  - first:
+      137: 13700022
+    second: robot_rig_0003:polySurface2
+  - first:
+      137: 13700024
+    second: robot_rig_0003:polySurface20
+  - first:
+      137: 13700026
+    second: robot_rig_0003:polySurface21
+  - first:
+      137: 13700028
+    second: robot_rig_0003:polySurface22
+  - first:
+      137: 13700030
+    second: robot_rig_0003:polySurface23
+  - first:
+      137: 13700032
+    second: robot_rig_0003:polySurface24
+  - first:
+      137: 13700034
+    second: robot_rig_0003:polySurface25
+  - first:
+      137: 13700036
+    second: robot_rig_0003:polySurface26
+  - first:
+      137: 13700038
+    second: robot_rig_0003:polySurface27
+  - first:
+      137: 13700040
+    second: robot_rig_0003:polySurface28
+  - first:
+      137: 13700042
+    second: robot_rig_0003:polySurface29
+  - first:
+      137: 13700044
+    second: robot_rig_0003:polySurface3
+  - first:
+      137: 13700046
+    second: robot_rig_0003:polySurface30
+  - first:
+      137: 13700048
+    second: robot_rig_0003:polySurface31
+  - first:
+      137: 13700050
+    second: robot_rig_0003:polySurface32
+  - first:
+      137: 13700052
+    second: robot_rig_0003:polySurface33
+  - first:
+      137: 13700054
+    second: robot_rig_0003:polySurface34
+  - first:
+      137: 13700056
+    second: robot_rig_0003:polySurface35
+  - first:
+      137: 13700058
+    second: robot_rig_0003:polySurface36
+  - first:
+      137: 13700060
+    second: robot_rig_0003:polySurface37
+  - first:
+      137: 13700062
+    second: robot_rig_0003:polySurface38
+  - first:
+      137: 13700064
+    second: robot_rig_0003:polySurface4
+  - first:
+      137: 13700066
+    second: robot_rig_0003:polySurface5
+  - first:
+      137: 13700068
+    second: robot_rig_0003:polySurface6
+  - first:
+      137: 13700070
+    second: robot_rig_0003:polySurface7
+  - first:
+      137: 13700072
+    second: robot_rig_0003:polySurface8
+  - first:
+      137: 13700074
+    second: robot_rig_0003:polySurface9
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: robot_rig_0003_lambert2
+    second: {fileID: 2100000, guid: ffa2f76e682514fb190f46e7ee6b209c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Robot Dance
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 370
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: playSound
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: robot_rig_0003:Group
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Geometry
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Hip_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Hip_L/robot_rig_0003:Knee_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Hip_L/robot_rig_0003:Knee_L/robot_rig_0003:Ankle_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Hip_L/robot_rig_0003:Knee_L/robot_rig_0003:Ankle_L/robot_rig_0003:Toes_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Hip_L/robot_rig_0003:Knee_L/robot_rig_0003:Ankle_L/robot_rig_0003:Toes_L/robot_rig_0003:ToesEnd_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Hip_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Hip_R/robot_rig_0003:Knee_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Hip_R/robot_rig_0003:Knee_R/robot_rig_0003:Ankle_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Hip_R/robot_rig_0003:Knee_R/robot_rig_0003:Ankle_R/robot_rig_0003:Toes_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Hip_R/robot_rig_0003:Knee_R/robot_rig_0003:Ankle_R/robot_rig_0003:Toes_R/robot_rig_0003:ToesEnd_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Neck_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Neck_M/robot_rig_0003:Head_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Neck_M/robot_rig_0003:Head_M/robot_rig_0003:Eye_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Neck_M/robot_rig_0003:Head_M/robot_rig_0003:Eye_L/robot_rig_0003:EyeEnd_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Neck_M/robot_rig_0003:Head_M/robot_rig_0003:Eye_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Neck_M/robot_rig_0003:Head_M/robot_rig_0003:Eye_R/robot_rig_0003:EyeEnd_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Neck_M/robot_rig_0003:Head_M/robot_rig_0003:HeadEnd_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Neck_M/robot_rig_0003:Head_M/robot_rig_0003:Jaw_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Neck_M/robot_rig_0003:Head_M/robot_rig_0003:Jaw_M/robot_rig_0003:JawEnd_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L/robot_rig_0003:ShoulderPart2_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L/robot_rig_0003:ShoulderPart2_L/robot_rig_0003:Elbow_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L/robot_rig_0003:ShoulderPart2_L/robot_rig_0003:Elbow_L/robot_rig_0003:Wrist_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L/robot_rig_0003:ShoulderPart2_L/robot_rig_0003:Elbow_L/robot_rig_0003:Wrist_L/robot_rig_0003:IndexFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L/robot_rig_0003:ShoulderPart2_L/robot_rig_0003:Elbow_L/robot_rig_0003:Wrist_L/robot_rig_0003:IndexFinger1_L/robot_rig_0003:IndexFinger2_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L/robot_rig_0003:ShoulderPart2_L/robot_rig_0003:Elbow_L/robot_rig_0003:Wrist_L/robot_rig_0003:IndexFinger1_L/robot_rig_0003:IndexFinger2_L/robot_rig_0003:IndexFinger3_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L/robot_rig_0003:ShoulderPart2_L/robot_rig_0003:Elbow_L/robot_rig_0003:Wrist_L/robot_rig_0003:IndexFinger1_L/robot_rig_0003:IndexFinger2_L/robot_rig_0003:IndexFinger3_L/robot_rig_0003:IndexFinger4_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L/robot_rig_0003:ShoulderPart2_L/robot_rig_0003:Elbow_L/robot_rig_0003:Wrist_L/robot_rig_0003:MiddleFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L/robot_rig_0003:ShoulderPart2_L/robot_rig_0003:Elbow_L/robot_rig_0003:Wrist_L/robot_rig_0003:MiddleFinger1_L/robot_rig_0003:MiddleFinger2_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L/robot_rig_0003:ShoulderPart2_L/robot_rig_0003:Elbow_L/robot_rig_0003:Wrist_L/robot_rig_0003:MiddleFinger1_L/robot_rig_0003:MiddleFinger2_L/robot_rig_0003:MiddleFinger3_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L/robot_rig_0003:ShoulderPart2_L/robot_rig_0003:Elbow_L/robot_rig_0003:Wrist_L/robot_rig_0003:MiddleFinger1_L/robot_rig_0003:MiddleFinger2_L/robot_rig_0003:MiddleFinger3_L/robot_rig_0003:MiddleFinger4_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L/robot_rig_0003:ShoulderPart2_L/robot_rig_0003:Elbow_L/robot_rig_0003:Wrist_L/robot_rig_0003:PinkyFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L/robot_rig_0003:ShoulderPart2_L/robot_rig_0003:Elbow_L/robot_rig_0003:Wrist_L/robot_rig_0003:PinkyFinger1_L/robot_rig_0003:PinkyFinger2_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L/robot_rig_0003:ShoulderPart2_L/robot_rig_0003:Elbow_L/robot_rig_0003:Wrist_L/robot_rig_0003:PinkyFinger1_L/robot_rig_0003:PinkyFinger2_L/robot_rig_0003:PinkyFinger3_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L/robot_rig_0003:ShoulderPart2_L/robot_rig_0003:Elbow_L/robot_rig_0003:Wrist_L/robot_rig_0003:PinkyFinger1_L/robot_rig_0003:PinkyFinger2_L/robot_rig_0003:PinkyFinger3_L/robot_rig_0003:PinkyFinger4_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L/robot_rig_0003:ShoulderPart2_L/robot_rig_0003:Elbow_L/robot_rig_0003:Wrist_L/robot_rig_0003:ThumbFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L/robot_rig_0003:ShoulderPart2_L/robot_rig_0003:Elbow_L/robot_rig_0003:Wrist_L/robot_rig_0003:ThumbFinger1_L/robot_rig_0003:ThumbFinger2_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L/robot_rig_0003:ShoulderPart2_L/robot_rig_0003:Elbow_L/robot_rig_0003:Wrist_L/robot_rig_0003:ThumbFinger1_L/robot_rig_0003:ThumbFinger2_L/robot_rig_0003:ThumbFinger3_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_L/robot_rig_0003:Shoulder_L/robot_rig_0003:ShoulderPart1_L/robot_rig_0003:ShoulderPart2_L/robot_rig_0003:Elbow_L/robot_rig_0003:Wrist_L/robot_rig_0003:ThumbFinger1_L/robot_rig_0003:ThumbFinger2_L/robot_rig_0003:ThumbFinger3_L/robot_rig_0003:ThumbFinger4_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R/robot_rig_0003:ShoulderPart2_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R/robot_rig_0003:ShoulderPart2_R/robot_rig_0003:Elbow_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R/robot_rig_0003:ShoulderPart2_R/robot_rig_0003:Elbow_R/robot_rig_0003:Wrist_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R/robot_rig_0003:ShoulderPart2_R/robot_rig_0003:Elbow_R/robot_rig_0003:Wrist_R/robot_rig_0003:IndexFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R/robot_rig_0003:ShoulderPart2_R/robot_rig_0003:Elbow_R/robot_rig_0003:Wrist_R/robot_rig_0003:IndexFinger1_R/robot_rig_0003:IndexFinger2_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R/robot_rig_0003:ShoulderPart2_R/robot_rig_0003:Elbow_R/robot_rig_0003:Wrist_R/robot_rig_0003:IndexFinger1_R/robot_rig_0003:IndexFinger2_R/robot_rig_0003:IndexFinger3_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R/robot_rig_0003:ShoulderPart2_R/robot_rig_0003:Elbow_R/robot_rig_0003:Wrist_R/robot_rig_0003:IndexFinger1_R/robot_rig_0003:IndexFinger2_R/robot_rig_0003:IndexFinger3_R/robot_rig_0003:IndexFinger4_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R/robot_rig_0003:ShoulderPart2_R/robot_rig_0003:Elbow_R/robot_rig_0003:Wrist_R/robot_rig_0003:MiddleFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R/robot_rig_0003:ShoulderPart2_R/robot_rig_0003:Elbow_R/robot_rig_0003:Wrist_R/robot_rig_0003:MiddleFinger1_R/robot_rig_0003:MiddleFinger2_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R/robot_rig_0003:ShoulderPart2_R/robot_rig_0003:Elbow_R/robot_rig_0003:Wrist_R/robot_rig_0003:MiddleFinger1_R/robot_rig_0003:MiddleFinger2_R/robot_rig_0003:MiddleFinger3_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R/robot_rig_0003:ShoulderPart2_R/robot_rig_0003:Elbow_R/robot_rig_0003:Wrist_R/robot_rig_0003:MiddleFinger1_R/robot_rig_0003:MiddleFinger2_R/robot_rig_0003:MiddleFinger3_R/robot_rig_0003:MiddleFinger4_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R/robot_rig_0003:ShoulderPart2_R/robot_rig_0003:Elbow_R/robot_rig_0003:Wrist_R/robot_rig_0003:PinkyFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R/robot_rig_0003:ShoulderPart2_R/robot_rig_0003:Elbow_R/robot_rig_0003:Wrist_R/robot_rig_0003:PinkyFinger1_R/robot_rig_0003:PinkyFinger2_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R/robot_rig_0003:ShoulderPart2_R/robot_rig_0003:Elbow_R/robot_rig_0003:Wrist_R/robot_rig_0003:PinkyFinger1_R/robot_rig_0003:PinkyFinger2_R/robot_rig_0003:PinkyFinger3_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R/robot_rig_0003:ShoulderPart2_R/robot_rig_0003:Elbow_R/robot_rig_0003:Wrist_R/robot_rig_0003:PinkyFinger1_R/robot_rig_0003:PinkyFinger2_R/robot_rig_0003:PinkyFinger3_R/robot_rig_0003:PinkyFinger4_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R/robot_rig_0003:ShoulderPart2_R/robot_rig_0003:Elbow_R/robot_rig_0003:Wrist_R/robot_rig_0003:ThumbFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R/robot_rig_0003:ShoulderPart2_R/robot_rig_0003:Elbow_R/robot_rig_0003:Wrist_R/robot_rig_0003:ThumbFinger1_R/robot_rig_0003:ThumbFinger2_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R/robot_rig_0003:ShoulderPart2_R/robot_rig_0003:Elbow_R/robot_rig_0003:Wrist_R/robot_rig_0003:ThumbFinger1_R/robot_rig_0003:ThumbFinger2_R/robot_rig_0003:ThumbFinger3_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:DeformationSystem/robot_rig_0003:Root_M/robot_rig_0003:Spine1_M/robot_rig_0003:Chest_M/robot_rig_0003:Scapula_R/robot_rig_0003:Shoulder_R/robot_rig_0003:ShoulderPart1_R/robot_rig_0003:ShoulderPart2_R/robot_rig_0003:Elbow_R/robot_rig_0003:Wrist_R/robot_rig_0003:ThumbFinger1_R/robot_rig_0003:ThumbFinger2_R/robot_rig_0003:ThumbFinger3_R/robot_rig_0003:ThumbFinger4_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Hip
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Hip/robot_rig_0003:Knee
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Hip/robot_rig_0003:Knee/robot_rig_0003:Ankle
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Hip/robot_rig_0003:Knee/robot_rig_0003:Ankle/robot_rig_0003:Heel
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Hip/robot_rig_0003:Knee/robot_rig_0003:Ankle/robot_rig_0003:Toes
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Hip/robot_rig_0003:Knee/robot_rig_0003:Ankle/robot_rig_0003:Toes/robot_rig_0003:ToesEnd
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Neck
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Neck/robot_rig_0003:Head
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Neck/robot_rig_0003:Head/robot_rig_0003:Eye
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Neck/robot_rig_0003:Head/robot_rig_0003:Eye/robot_rig_0003:EyeEnd
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Neck/robot_rig_0003:Head/robot_rig_0003:HeadEnd
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Neck/robot_rig_0003:Head/robot_rig_0003:Jaw
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Neck/robot_rig_0003:Head/robot_rig_0003:Jaw/robot_rig_0003:JawEnd
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:IndexFinger1
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:IndexFinger1/robot_rig_0003:IndexFinger2
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:IndexFinger1/robot_rig_0003:IndexFinger2/robot_rig_0003:IndexFinger3
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:IndexFinger1/robot_rig_0003:IndexFinger2/robot_rig_0003:IndexFinger3/robot_rig_0003:IndexFinger4
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:MiddleFinger1
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:MiddleFinger1/robot_rig_0003:MiddleFinger2
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:MiddleFinger1/robot_rig_0003:MiddleFinger2/robot_rig_0003:MiddleFinger3
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:MiddleFinger1/robot_rig_0003:MiddleFinger2/robot_rig_0003:MiddleFinger3/robot_rig_0003:MiddleFinger4
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:PinkyFinger1
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:PinkyFinger1/robot_rig_0003:PinkyFinger2
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:PinkyFinger1/robot_rig_0003:PinkyFinger2/robot_rig_0003:PinkyFinger3
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:PinkyFinger1/robot_rig_0003:PinkyFinger2/robot_rig_0003:PinkyFinger3/robot_rig_0003:PinkyFinger4
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:RingFinger1
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:RingFinger1/robot_rig_0003:RingFinger2
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:RingFinger1/robot_rig_0003:RingFinger2/robot_rig_0003:RingFinger3
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:RingFinger1/robot_rig_0003:RingFinger2/robot_rig_0003:RingFinger3/robot_rig_0003:RingFinger4
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:ThumbFinger1
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:ThumbFinger1/robot_rig_0003:ThumbFinger2
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:ThumbFinger1/robot_rig_0003:ThumbFinger2/robot_rig_0003:ThumbFinger3
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:FitSkeleton/robot_rig_0003:Root/robot_rig_0003:Spine1/robot_rig_0003:Chest/robot_rig_0003:Scapula/robot_rig_0003:Shoulder/robot_rig_0003:Elbow/robot_rig_0003:Wrist/robot_rig_0003:ThumbFinger1/robot_rig_0003:ThumbFinger2/robot_rig_0003:ThumbFinger3/robot_rig_0003:ThumbFinger4
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:AimSystem
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:AimSystem/robot_rig_0003:AimEye
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:AimSystem/robot_rig_0003:AimEye/robot_rig_0003:AimOffsetEye
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:AimSystem/robot_rig_0003:AimEye/robot_rig_0003:AimOffsetEye/robot_rig_0003:AimFollowEye
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:AimSystem/robot_rig_0003:AimEye/robot_rig_0003:AimOffsetEye/robot_rig_0003:AimFollowOffEye
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:AimSystem/robot_rig_0003:AimEye/robot_rig_0003:AimOffsetEye/robot_rig_0003:AimFollowOnEye
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:BendSystem
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:ConstraintSystem
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:DrivingSystem
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:DynamicSystem
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKIKSystem
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKIKSystem/robot_rig_0003:FKIKParentConstraintArm_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKIKSystem/robot_rig_0003:FKIKParentConstraintArm_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKIKSystem/robot_rig_0003:FKIKParentConstraintLeg_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKIKSystem/robot_rig_0003:FKIKParentConstraintLeg_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKIKSystem/robot_rig_0003:FKIKParentConstraintSpine_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKOffsetRoot_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKOffsetRoot_M/robot_rig_0003:FKExtraRoot_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToChest_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToChest_M/robot_rig_0003:FKOffsetNeck_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToChest_M/robot_rig_0003:FKOffsetNeck_M/robot_rig_0003:FKExtraNeck_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToChest_M/robot_rig_0003:FKOffsetScapula_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToChest_M/robot_rig_0003:FKOffsetScapula_L/robot_rig_0003:FKExtraScapula_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToChest_M/robot_rig_0003:FKOffsetScapula_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToChest_M/robot_rig_0003:FKOffsetScapula_R/robot_rig_0003:FKExtraScapula_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_L/robot_rig_0003:FKExtraHip_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_L/robot_rig_0003:FKExtraHip_L/robot_rig_0003:FKHip_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_L/robot_rig_0003:FKExtraHip_L/robot_rig_0003:FKHip_L/robot_rig_0003:FKXHip_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_L/robot_rig_0003:FKExtraHip_L/robot_rig_0003:FKHip_L/robot_rig_0003:FKXHip_L/robot_rig_0003:FKOffsetKnee_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_L/robot_rig_0003:FKExtraHip_L/robot_rig_0003:FKHip_L/robot_rig_0003:FKXHip_L/robot_rig_0003:FKOffsetKnee_L/robot_rig_0003:FKExtraKnee_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_L/robot_rig_0003:FKExtraHip_L/robot_rig_0003:FKHip_L/robot_rig_0003:FKXHip_L/robot_rig_0003:FKOffsetKnee_L/robot_rig_0003:FKExtraKnee_L/robot_rig_0003:FKKnee_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_L/robot_rig_0003:FKExtraHip_L/robot_rig_0003:FKHip_L/robot_rig_0003:FKXHip_L/robot_rig_0003:FKOffsetKnee_L/robot_rig_0003:FKExtraKnee_L/robot_rig_0003:FKKnee_L/robot_rig_0003:FKXKnee_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_L/robot_rig_0003:FKExtraHip_L/robot_rig_0003:FKHip_L/robot_rig_0003:FKXHip_L/robot_rig_0003:FKOffsetKnee_L/robot_rig_0003:FKExtraKnee_L/robot_rig_0003:FKKnee_L/robot_rig_0003:FKXKnee_L/robot_rig_0003:FKOffsetAnkle_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_L/robot_rig_0003:FKExtraHip_L/robot_rig_0003:FKHip_L/robot_rig_0003:FKXHip_L/robot_rig_0003:FKOffsetKnee_L/robot_rig_0003:FKExtraKnee_L/robot_rig_0003:FKKnee_L/robot_rig_0003:FKXKnee_L/robot_rig_0003:FKOffsetAnkle_L/robot_rig_0003:FKExtraAnkle_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_L/robot_rig_0003:FKExtraHip_L/robot_rig_0003:FKHip_L/robot_rig_0003:FKXHip_L/robot_rig_0003:FKOffsetKnee_L/robot_rig_0003:FKExtraKnee_L/robot_rig_0003:FKKnee_L/robot_rig_0003:FKXKnee_L/robot_rig_0003:FKOffsetAnkle_L/robot_rig_0003:FKExtraAnkle_L/robot_rig_0003:FKAnkle_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_L/robot_rig_0003:FKExtraHip_L/robot_rig_0003:FKHip_L/robot_rig_0003:FKXHip_L/robot_rig_0003:FKOffsetKnee_L/robot_rig_0003:FKExtraKnee_L/robot_rig_0003:FKKnee_L/robot_rig_0003:FKXKnee_L/robot_rig_0003:FKOffsetAnkle_L/robot_rig_0003:FKExtraAnkle_L/robot_rig_0003:FKAnkle_L/robot_rig_0003:FKXAnkle_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_L/robot_rig_0003:FKExtraHip_L/robot_rig_0003:FKHip_L/robot_rig_0003:FKXHip_L/robot_rig_0003:FKOffsetKnee_L/robot_rig_0003:FKExtraKnee_L/robot_rig_0003:FKKnee_L/robot_rig_0003:FKXKnee_L/robot_rig_0003:FKOffsetAnkle_L/robot_rig_0003:FKExtraAnkle_L/robot_rig_0003:FKAnkle_L/robot_rig_0003:FKXAnkle_L/robot_rig_0003:AlignIKToAnkle_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_L/robot_rig_0003:FKExtraHip_L/robot_rig_0003:FKHip_L/robot_rig_0003:FKXHip_L/robot_rig_0003:FKOffsetKnee_L/robot_rig_0003:FKExtraKnee_L/robot_rig_0003:FKKnee_L/robot_rig_0003:FKXKnee_L/robot_rig_0003:FKOffsetAnkle_L/robot_rig_0003:FKExtraAnkle_L/robot_rig_0003:FKAnkle_L/robot_rig_0003:FKXAnkle_L/robot_rig_0003:FKOffsetToes_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_L/robot_rig_0003:FKExtraHip_L/robot_rig_0003:FKHip_L/robot_rig_0003:FKXHip_L/robot_rig_0003:FKOffsetKnee_L/robot_rig_0003:FKExtraKnee_L/robot_rig_0003:FKKnee_L/robot_rig_0003:FKXKnee_L/robot_rig_0003:FKOffsetAnkle_L/robot_rig_0003:FKExtraAnkle_L/robot_rig_0003:FKAnkle_L/robot_rig_0003:FKXAnkle_L/robot_rig_0003:FKOffsetToes_L/robot_rig_0003:FKExtraToes_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_L/robot_rig_0003:FKExtraHip_L/robot_rig_0003:FKHip_L/robot_rig_0003:FKXHip_L/robot_rig_0003:FKOffsetKnee_L/robot_rig_0003:FKExtraKnee_L/robot_rig_0003:FKKnee_L/robot_rig_0003:FKXKnee_L/robot_rig_0003:FKOffsetAnkle_L/robot_rig_0003:FKExtraAnkle_L/robot_rig_0003:FKAnkle_L/robot_rig_0003:FKXAnkle_L/robot_rig_0003:FKOffsetToes_L/robot_rig_0003:FKExtraToes_L/robot_rig_0003:FKToes_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_L/robot_rig_0003:FKExtraHip_L/robot_rig_0003:FKHip_L/robot_rig_0003:FKXHip_L/robot_rig_0003:FKOffsetKnee_L/robot_rig_0003:FKExtraKnee_L/robot_rig_0003:FKKnee_L/robot_rig_0003:FKXKnee_L/robot_rig_0003:FKOffsetAnkle_L/robot_rig_0003:FKExtraAnkle_L/robot_rig_0003:FKAnkle_L/robot_rig_0003:FKXAnkle_L/robot_rig_0003:FKOffsetToes_L/robot_rig_0003:FKExtraToes_L/robot_rig_0003:FKToes_L/robot_rig_0003:FKXToes_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_R/robot_rig_0003:FKExtraHip_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_R/robot_rig_0003:FKExtraHip_R/robot_rig_0003:FKHip_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_R/robot_rig_0003:FKExtraHip_R/robot_rig_0003:FKHip_R/robot_rig_0003:FKXHip_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_R/robot_rig_0003:FKExtraHip_R/robot_rig_0003:FKHip_R/robot_rig_0003:FKXHip_R/robot_rig_0003:FKOffsetKnee_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_R/robot_rig_0003:FKExtraHip_R/robot_rig_0003:FKHip_R/robot_rig_0003:FKXHip_R/robot_rig_0003:FKOffsetKnee_R/robot_rig_0003:FKExtraKnee_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_R/robot_rig_0003:FKExtraHip_R/robot_rig_0003:FKHip_R/robot_rig_0003:FKXHip_R/robot_rig_0003:FKOffsetKnee_R/robot_rig_0003:FKExtraKnee_R/robot_rig_0003:FKKnee_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_R/robot_rig_0003:FKExtraHip_R/robot_rig_0003:FKHip_R/robot_rig_0003:FKXHip_R/robot_rig_0003:FKOffsetKnee_R/robot_rig_0003:FKExtraKnee_R/robot_rig_0003:FKKnee_R/robot_rig_0003:FKXKnee_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_R/robot_rig_0003:FKExtraHip_R/robot_rig_0003:FKHip_R/robot_rig_0003:FKXHip_R/robot_rig_0003:FKOffsetKnee_R/robot_rig_0003:FKExtraKnee_R/robot_rig_0003:FKKnee_R/robot_rig_0003:FKXKnee_R/robot_rig_0003:FKOffsetAnkle_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_R/robot_rig_0003:FKExtraHip_R/robot_rig_0003:FKHip_R/robot_rig_0003:FKXHip_R/robot_rig_0003:FKOffsetKnee_R/robot_rig_0003:FKExtraKnee_R/robot_rig_0003:FKKnee_R/robot_rig_0003:FKXKnee_R/robot_rig_0003:FKOffsetAnkle_R/robot_rig_0003:FKExtraAnkle_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_R/robot_rig_0003:FKExtraHip_R/robot_rig_0003:FKHip_R/robot_rig_0003:FKXHip_R/robot_rig_0003:FKOffsetKnee_R/robot_rig_0003:FKExtraKnee_R/robot_rig_0003:FKKnee_R/robot_rig_0003:FKXKnee_R/robot_rig_0003:FKOffsetAnkle_R/robot_rig_0003:FKExtraAnkle_R/robot_rig_0003:FKAnkle_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_R/robot_rig_0003:FKExtraHip_R/robot_rig_0003:FKHip_R/robot_rig_0003:FKXHip_R/robot_rig_0003:FKOffsetKnee_R/robot_rig_0003:FKExtraKnee_R/robot_rig_0003:FKKnee_R/robot_rig_0003:FKXKnee_R/robot_rig_0003:FKOffsetAnkle_R/robot_rig_0003:FKExtraAnkle_R/robot_rig_0003:FKAnkle_R/robot_rig_0003:FKXAnkle_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_R/robot_rig_0003:FKExtraHip_R/robot_rig_0003:FKHip_R/robot_rig_0003:FKXHip_R/robot_rig_0003:FKOffsetKnee_R/robot_rig_0003:FKExtraKnee_R/robot_rig_0003:FKKnee_R/robot_rig_0003:FKXKnee_R/robot_rig_0003:FKOffsetAnkle_R/robot_rig_0003:FKExtraAnkle_R/robot_rig_0003:FKAnkle_R/robot_rig_0003:FKXAnkle_R/robot_rig_0003:AlignIKToAnkle_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_R/robot_rig_0003:FKExtraHip_R/robot_rig_0003:FKHip_R/robot_rig_0003:FKXHip_R/robot_rig_0003:FKOffsetKnee_R/robot_rig_0003:FKExtraKnee_R/robot_rig_0003:FKKnee_R/robot_rig_0003:FKXKnee_R/robot_rig_0003:FKOffsetAnkle_R/robot_rig_0003:FKExtraAnkle_R/robot_rig_0003:FKAnkle_R/robot_rig_0003:FKXAnkle_R/robot_rig_0003:FKOffsetToes_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_R/robot_rig_0003:FKExtraHip_R/robot_rig_0003:FKHip_R/robot_rig_0003:FKXHip_R/robot_rig_0003:FKOffsetKnee_R/robot_rig_0003:FKExtraKnee_R/robot_rig_0003:FKKnee_R/robot_rig_0003:FKXKnee_R/robot_rig_0003:FKOffsetAnkle_R/robot_rig_0003:FKExtraAnkle_R/robot_rig_0003:FKAnkle_R/robot_rig_0003:FKXAnkle_R/robot_rig_0003:FKOffsetToes_R/robot_rig_0003:FKExtraToes_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_R/robot_rig_0003:FKExtraHip_R/robot_rig_0003:FKHip_R/robot_rig_0003:FKXHip_R/robot_rig_0003:FKOffsetKnee_R/robot_rig_0003:FKExtraKnee_R/robot_rig_0003:FKKnee_R/robot_rig_0003:FKXKnee_R/robot_rig_0003:FKOffsetAnkle_R/robot_rig_0003:FKExtraAnkle_R/robot_rig_0003:FKAnkle_R/robot_rig_0003:FKXAnkle_R/robot_rig_0003:FKOffsetToes_R/robot_rig_0003:FKExtraToes_R/robot_rig_0003:FKToes_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToRoot_M/robot_rig_0003:FKOffsetHip_R/robot_rig_0003:FKExtraHip_R/robot_rig_0003:FKHip_R/robot_rig_0003:FKXHip_R/robot_rig_0003:FKOffsetKnee_R/robot_rig_0003:FKExtraKnee_R/robot_rig_0003:FKKnee_R/robot_rig_0003:FKXKnee_R/robot_rig_0003:FKOffsetAnkle_R/robot_rig_0003:FKExtraAnkle_R/robot_rig_0003:FKAnkle_R/robot_rig_0003:FKXAnkle_R/robot_rig_0003:FKOffsetToes_R/robot_rig_0003:FKExtraToes_R/robot_rig_0003:FKToes_R/robot_rig_0003:FKXToes_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToScapula_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToScapula_L/robot_rig_0003:FKOffsetShoulder_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToScapula_L/robot_rig_0003:FKOffsetShoulder_L/robot_rig_0003:FKExtraShoulder_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToScapula_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToScapula_R/robot_rig_0003:FKOffsetShoulder_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToScapula_R/robot_rig_0003:FKOffsetShoulder_R/robot_rig_0003:FKExtraShoulder_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_L/robot_rig_0003:FKOffsetIndexFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_L/robot_rig_0003:FKOffsetIndexFinger1_L/robot_rig_0003:SDK1FKIndexFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_L/robot_rig_0003:FKOffsetIndexFinger1_L/robot_rig_0003:SDK1FKIndexFinger1_L/robot_rig_0003:SDK2FKIndexFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_L/robot_rig_0003:FKOffsetIndexFinger1_L/robot_rig_0003:SDK1FKIndexFinger1_L/robot_rig_0003:SDK2FKIndexFinger1_L/robot_rig_0003:FKExtraIndexFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_L/robot_rig_0003:FKOffsetMiddleFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_L/robot_rig_0003:FKOffsetMiddleFinger1_L/robot_rig_0003:SDK1FKMiddleFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_L/robot_rig_0003:FKOffsetMiddleFinger1_L/robot_rig_0003:SDK1FKMiddleFinger1_L/robot_rig_0003:FKExtraMiddleFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_L/robot_rig_0003:FKOffsetPinkyFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_L/robot_rig_0003:FKOffsetPinkyFinger1_L/robot_rig_0003:SDK1FKPinkyFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_L/robot_rig_0003:FKOffsetPinkyFinger1_L/robot_rig_0003:SDK1FKPinkyFinger1_L/robot_rig_0003:SDK2FKPinkyFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_L/robot_rig_0003:FKOffsetPinkyFinger1_L/robot_rig_0003:SDK1FKPinkyFinger1_L/robot_rig_0003:SDK2FKPinkyFinger1_L/robot_rig_0003:FKExtraPinkyFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_L/robot_rig_0003:FKOffsetRingFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_L/robot_rig_0003:FKOffsetRingFinger1_L/robot_rig_0003:SDK1FKRingFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_L/robot_rig_0003:FKOffsetRingFinger1_L/robot_rig_0003:SDK1FKRingFinger1_L/robot_rig_0003:SDK2FKRingFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_L/robot_rig_0003:FKOffsetRingFinger1_L/robot_rig_0003:SDK1FKRingFinger1_L/robot_rig_0003:SDK2FKRingFinger1_L/robot_rig_0003:FKExtraRingFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_L/robot_rig_0003:FKOffsetThumbFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_L/robot_rig_0003:FKOffsetThumbFinger1_L/robot_rig_0003:FKExtraThumbFinger1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_R/robot_rig_0003:FKOffsetIndexFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_R/robot_rig_0003:FKOffsetIndexFinger1_R/robot_rig_0003:SDK1FKIndexFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_R/robot_rig_0003:FKOffsetIndexFinger1_R/robot_rig_0003:SDK1FKIndexFinger1_R/robot_rig_0003:SDK2FKIndexFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_R/robot_rig_0003:FKOffsetIndexFinger1_R/robot_rig_0003:SDK1FKIndexFinger1_R/robot_rig_0003:SDK2FKIndexFinger1_R/robot_rig_0003:FKExtraIndexFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_R/robot_rig_0003:FKOffsetMiddleFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_R/robot_rig_0003:FKOffsetMiddleFinger1_R/robot_rig_0003:SDK1FKMiddleFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_R/robot_rig_0003:FKOffsetMiddleFinger1_R/robot_rig_0003:SDK1FKMiddleFinger1_R/robot_rig_0003:FKExtraMiddleFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_R/robot_rig_0003:FKOffsetPinkyFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_R/robot_rig_0003:FKOffsetPinkyFinger1_R/robot_rig_0003:SDK1FKPinkyFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_R/robot_rig_0003:FKOffsetPinkyFinger1_R/robot_rig_0003:SDK1FKPinkyFinger1_R/robot_rig_0003:SDK2FKPinkyFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_R/robot_rig_0003:FKOffsetPinkyFinger1_R/robot_rig_0003:SDK1FKPinkyFinger1_R/robot_rig_0003:SDK2FKPinkyFinger1_R/robot_rig_0003:FKExtraPinkyFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_R/robot_rig_0003:FKOffsetRingFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_R/robot_rig_0003:FKOffsetRingFinger1_R/robot_rig_0003:SDK1FKRingFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_R/robot_rig_0003:FKOffsetRingFinger1_R/robot_rig_0003:SDK1FKRingFinger1_R/robot_rig_0003:SDK2FKRingFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_R/robot_rig_0003:FKOffsetRingFinger1_R/robot_rig_0003:SDK1FKRingFinger1_R/robot_rig_0003:SDK2FKRingFinger1_R/robot_rig_0003:FKExtraRingFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_R/robot_rig_0003:FKOffsetThumbFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:FKSystem/robot_rig_0003:FKParentConstraintToWrist_R/robot_rig_0003:FKOffsetThumbFinger1_R/robot_rig_0003:FKExtraThumbFinger1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:GlobalSystem
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:GlobalSystem/robot_rig_0003:GlobalOffsetHead_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:GlobalSystem/robot_rig_0003:GlobalOffsetHead_M/robot_rig_0003:GlobalHead_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKCurve
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKCurve/robot_rig_0003:IKSpineCurve_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKFollow
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKFollow/robot_rig_0003:IKOffsetArm_LFollow
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKFollow/robot_rig_0003:IKOffsetArm_LFollowNoScale
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKFollow/robot_rig_0003:IKOffsetArm_RFollow
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKFollow/robot_rig_0003:IKOffsetArm_RFollowNoScale
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKFollow/robot_rig_0003:PoleOffsetArm_LFollow
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKFollow/robot_rig_0003:PoleOffsetArm_LFollowNoScale
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKFollow/robot_rig_0003:PoleOffsetArm_RFollow
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKFollow/robot_rig_0003:PoleOffsetArm_RFollowNoScale
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKFollow/robot_rig_0003:PoleOffsetLeg_LFollow
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKFollow/robot_rig_0003:PoleOffsetLeg_LFollowNoScale
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKFollow/robot_rig_0003:PoleOffsetLeg_RFollow
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKFollow/robot_rig_0003:PoleOffsetLeg_RFollowNoScale
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKOffsetArm_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKOffsetArm_L/robot_rig_0003:IKExtraArm_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKOffsetArm_L/robot_rig_0003:IKExtraArm_L/robot_rig_0003:IKArm_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKOffsetArm_L/robot_rig_0003:IKExtraArm_L/robot_rig_0003:IKArm_L/robot_rig_0003:IKArmHandle_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKOffsetArm_L/robot_rig_0003:IKExtraArm_L/robot_rig_0003:IKArm_L/robot_rig_0003:IKFKAlignedOffsetArm_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKOffsetArm_L/robot_rig_0003:IKExtraArm_L/robot_rig_0003:IKArm_L/robot_rig_0003:IKFKAlignedOffsetArm_L/robot_rig_0003:IKFKAlignedArm_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKOffsetArm_L/robot_rig_0003:IKExtraArm_L/robot_rig_0003:IKArm_L/robot_rig_0003:IKmessureConstrainToArm_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKOffsetArm_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKOffsetArm_R/robot_rig_0003:IKExtraArm_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKOffsetArm_R/robot_rig_0003:IKExtraArm_R/robot_rig_0003:IKArm_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKOffsetArm_R/robot_rig_0003:IKExtraArm_R/robot_rig_0003:IKArm_R/robot_rig_0003:IKArmHandle_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKOffsetArm_R/robot_rig_0003:IKExtraArm_R/robot_rig_0003:IKArm_R/robot_rig_0003:IKFKAlignedOffsetArm_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKOffsetArm_R/robot_rig_0003:IKExtraArm_R/robot_rig_0003:IKArm_R/robot_rig_0003:IKFKAlignedOffsetArm_R/robot_rig_0003:IKFKAlignedArm_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKOffsetArm_R/robot_rig_0003:IKExtraArm_R/robot_rig_0003:IKArm_R/robot_rig_0003:IKmessureConstrainToArm_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKOffsetLeg_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKOffsetLeg_L/robot_rig_0003:IKExtraLeg_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKOffsetLeg_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKOffsetLeg_R/robot_rig_0003:IKExtraLeg_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKRootConstraint
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKRootConstraint/robot_rig_0003:IKOffsetSpine1_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKRootConstraint/robot_rig_0003:IKOffsetSpine1_M/robot_rig_0003:IKExtraSpine1_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKRootConstraint/robot_rig_0003:IKOffsetSpine1_M/robot_rig_0003:IKExtraSpine1_M/robot_rig_0003:IKSpine1_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKRootConstraint/robot_rig_0003:IKOffsetSpine1_M/robot_rig_0003:IKExtraSpine1_M/robot_rig_0003:IKSpine1_M/robot_rig_0003:IKSpine0AlignTo_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKRootConstraint/robot_rig_0003:IKOffsetSpine1_M/robot_rig_0003:IKExtraSpine1_M/robot_rig_0003:IKSpine1_M/robot_rig_0003:IKSpineLocator0_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKRootConstraint/robot_rig_0003:IKOffsetSpine1_M/robot_rig_0003:IKExtraSpine1_M/robot_rig_0003:IKSpine1_M/robot_rig_0003:IKStiffOrientSpine1_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKRootConstraint/robot_rig_0003:IKOffsetSpine1_M/robot_rig_0003:IKExtraSpine1_M/robot_rig_0003:IKSpine1_M/robot_rig_0003:IKStiffOrientSpine1_M/robot_rig_0003:IKSpineLocator1_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKRootConstraint/robot_rig_0003:IKOffsetSpine2_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKRootConstraint/robot_rig_0003:IKOffsetSpine2_M/robot_rig_0003:IKExtraSpine2_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKRootConstraint/robot_rig_0003:IKOffsetSpine2_M/robot_rig_0003:IKExtraSpine2_M/robot_rig_0003:IKSpine2_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKRootConstraint/robot_rig_0003:IKOffsetSpine2_M/robot_rig_0003:IKExtraSpine2_M/robot_rig_0003:IKSpine2_M/robot_rig_0003:IKSpine2AlignTo_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKRootConstraint/robot_rig_0003:IKOffsetSpine2_M/robot_rig_0003:IKExtraSpine2_M/robot_rig_0003:IKSpine2_M/robot_rig_0003:IKSpine2AlignUnIKTwistToOffset_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKRootConstraint/robot_rig_0003:IKOffsetSpine2_M/robot_rig_0003:IKExtraSpine2_M/robot_rig_0003:IKSpine2_M/robot_rig_0003:IKSpine2AlignUnIKTwistToOffset_M/robot_rig_0003:IKSpine2AlignUnIKTwistTo_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKRootConstraint/robot_rig_0003:IKOffsetSpine2_M/robot_rig_0003:IKExtraSpine2_M/robot_rig_0003:IKSpine2_M/robot_rig_0003:IKSpineLocator3_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKRootConstraint/robot_rig_0003:IKOffsetSpine2_M/robot_rig_0003:IKExtraSpine2_M/robot_rig_0003:IKSpine2_M/robot_rig_0003:IKStiffOrientSpine2_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKRootConstraint/robot_rig_0003:IKOffsetSpine2_M/robot_rig_0003:IKExtraSpine2_M/robot_rig_0003:IKSpine2_M/robot_rig_0003:IKStiffOrientSpine2_M/robot_rig_0003:IKSpineLocator2_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKScalerChest_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKScalerRoot_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKScalerSpine1_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:IKSpineHandle_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:PoleAimLeg_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:PoleAimLeg_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:PoleOffsetArm_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:PoleOffsetArm_L/robot_rig_0003:PoleExtraArm_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:PoleOffsetArm_L/robot_rig_0003:PoleExtraArm_L/robot_rig_0003:PoleArm_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:PoleOffsetArm_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:PoleOffsetArm_R/robot_rig_0003:PoleExtraArm_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:PoleOffsetArm_R/robot_rig_0003:PoleExtraArm_R/robot_rig_0003:PoleArm_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:PoleOffsetLeg_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:PoleOffsetLeg_L/robot_rig_0003:PoleExtraLeg_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:PoleOffsetLeg_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKHandle/robot_rig_0003:PoleOffsetLeg_R/robot_rig_0003:PoleExtraLeg_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_L/robot_rig_0003:IKMessureFromHip_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_L/robot_rig_0003:IKXOffsetHip_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_L/robot_rig_0003:IKXOffsetHip_L/robot_rig_0003:IKXHip_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_L/robot_rig_0003:IKXOffsetHip_L/robot_rig_0003:IKXHip_L/robot_rig_0003:IKX2Hip_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_L/robot_rig_0003:IKXOffsetHip_L/robot_rig_0003:IKXHip_L/robot_rig_0003:IKXKnee_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_L/robot_rig_0003:IKXOffsetHip_L/robot_rig_0003:IKXHip_L/robot_rig_0003:IKXKnee_L/robot_rig_0003:IKX2Knee_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_L/robot_rig_0003:IKXOffsetHip_L/robot_rig_0003:IKXHip_L/robot_rig_0003:IKXKnee_L/robot_rig_0003:IKXAnkle_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_L/robot_rig_0003:IKXOffsetHip_L/robot_rig_0003:IKXHip_L/robot_rig_0003:IKXKnee_L/robot_rig_0003:IKXAnkle_L/robot_rig_0003:IKX2Ankle_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_L/robot_rig_0003:IKXOffsetHip_L/robot_rig_0003:IKXHip_L/robot_rig_0003:IKXKnee_L/robot_rig_0003:IKXAnkle_L/robot_rig_0003:IKXToes_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_L/robot_rig_0003:IKXOffsetHip_L/robot_rig_0003:IKXHip_L/robot_rig_0003:IKXKnee_L/robot_rig_0003:IKXAnkle_L/robot_rig_0003:IKXToes_L/robot_rig_0003:IKX2Toes_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_L/robot_rig_0003:IKXOffsetHip_L/robot_rig_0003:IKXHip_L/robot_rig_0003:IKXKnee_L/robot_rig_0003:IKXAnkle_L/robot_rig_0003:IKXToes_L/robot_rig_0003:IKXToesEnd_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_L/robot_rig_0003:IKXOffsetHip_L/robot_rig_0003:IKXHip_L/robot_rig_0003:IKXKnee_L/robot_rig_0003:IKXAnkle_L/robot_rig_0003:IKXToes_L/robot_rig_0003:IKXToesEnd_L/robot_rig_0003:IKX2ToesEnd_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_L/robot_rig_0003:IKXOffsetHip_L/robot_rig_0003:IKXHip_L/robot_rig_0003:IKXKnee_L/robot_rig_0003:PoleAnnotationLeg_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_R/robot_rig_0003:IKMessureFromHip_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_R/robot_rig_0003:IKXOffsetHip_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_R/robot_rig_0003:IKXOffsetHip_R/robot_rig_0003:IKXHip_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_R/robot_rig_0003:IKXOffsetHip_R/robot_rig_0003:IKXHip_R/robot_rig_0003:IKX2Hip_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_R/robot_rig_0003:IKXOffsetHip_R/robot_rig_0003:IKXHip_R/robot_rig_0003:IKXKnee_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_R/robot_rig_0003:IKXOffsetHip_R/robot_rig_0003:IKXHip_R/robot_rig_0003:IKXKnee_R/robot_rig_0003:IKX2Knee_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_R/robot_rig_0003:IKXOffsetHip_R/robot_rig_0003:IKXHip_R/robot_rig_0003:IKXKnee_R/robot_rig_0003:IKXAnkle_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_R/robot_rig_0003:IKXOffsetHip_R/robot_rig_0003:IKXHip_R/robot_rig_0003:IKXKnee_R/robot_rig_0003:IKXAnkle_R/robot_rig_0003:IKX2Ankle_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_R/robot_rig_0003:IKXOffsetHip_R/robot_rig_0003:IKXHip_R/robot_rig_0003:IKXKnee_R/robot_rig_0003:IKXAnkle_R/robot_rig_0003:IKXToes_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_R/robot_rig_0003:IKXOffsetHip_R/robot_rig_0003:IKXHip_R/robot_rig_0003:IKXKnee_R/robot_rig_0003:IKXAnkle_R/robot_rig_0003:IKXToes_R/robot_rig_0003:IKX2Toes_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_R/robot_rig_0003:IKXOffsetHip_R/robot_rig_0003:IKXHip_R/robot_rig_0003:IKXKnee_R/robot_rig_0003:IKXAnkle_R/robot_rig_0003:IKXToes_R/robot_rig_0003:IKXToesEnd_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_R/robot_rig_0003:IKXOffsetHip_R/robot_rig_0003:IKXHip_R/robot_rig_0003:IKXKnee_R/robot_rig_0003:IKXAnkle_R/robot_rig_0003:IKXToes_R/robot_rig_0003:IKXToesEnd_R/robot_rig_0003:IKX2ToesEnd_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintHip_R/robot_rig_0003:IKXOffsetHip_R/robot_rig_0003:IKXHip_R/robot_rig_0003:IKXKnee_R/robot_rig_0003:PoleAnnotationLeg_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintRoot_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintRoot_M/robot_rig_0003:IKfake0Spine_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintRoot_M/robot_rig_0003:IKfake0Spine_M/robot_rig_0003:IKfake1Spine_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintRoot_M/robot_rig_0003:IKfake0Spine_M/robot_rig_0003:IKfake1Spine_M/robot_rig_0003:IKFake1UpLocSpine_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintRoot_M/robot_rig_0003:IKfake0Spine_M/robot_rig_0003:IKfake1Spine_M/robot_rig_0003:IKfake2Spine_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintRoot_M/robot_rig_0003:IKfake0Spine_M/robot_rig_0003:IKfake1Spine_M/robot_rig_0003:IKfake2Spine_M/robot_rig_0003:IKfake3Spine_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintRoot_M/robot_rig_0003:IKfake0Spine_M/robot_rig_0003:IKSpSpine1_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintRoot_M/robot_rig_0003:IKfake0Spine_M/robot_rig_0003:IKSpSpine1_M/robot_rig_0003:IKSpChest_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintRoot_M/robot_rig_0003:IKfake0Spine_M/robot_rig_0003:IKSpSpine1_M/robot_rig_0003:IKSpChest_M/robot_rig_0003:IKSpChestFollowOffset_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintRoot_M/robot_rig_0003:IKfake0Spine_M/robot_rig_0003:IKSpSpine1_M/robot_rig_0003:IKSpSpine1FollowOffset_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintRoot_M/robot_rig_0003:IKXOffsetRoot_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintRoot_M/robot_rig_0003:IKXOffsetRoot_M/robot_rig_0003:IKXRoot_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintRoot_M/robot_rig_0003:IKXOffsetRoot_M/robot_rig_0003:IKXRoot_M/robot_rig_0003:IKX2Root_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintRoot_M/robot_rig_0003:IKXOffsetRoot_M/robot_rig_0003:IKXRoot_M/robot_rig_0003:IKXSpine1_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintRoot_M/robot_rig_0003:IKXOffsetRoot_M/robot_rig_0003:IKXRoot_M/robot_rig_0003:IKXSpine1_M/robot_rig_0003:IKX2Spine1_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintRoot_M/robot_rig_0003:IKXOffsetRoot_M/robot_rig_0003:IKXRoot_M/robot_rig_0003:IKXSpine1_M/robot_rig_0003:IKXChest_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintRoot_M/robot_rig_0003:IKXOffsetRoot_M/robot_rig_0003:IKXRoot_M/robot_rig_0003:IKXSpine1_M/robot_rig_0003:IKXChest_M/robot_rig_0003:IKX2Chest_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_L/robot_rig_0003:IKMessureFromShoulder_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_L/robot_rig_0003:IKXOffsetShoulder_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_L/robot_rig_0003:IKXOffsetShoulder_L/robot_rig_0003:IKXShoulder_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_L/robot_rig_0003:IKXOffsetShoulder_L/robot_rig_0003:IKXShoulder_L/robot_rig_0003:IKX2Shoulder_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_L/robot_rig_0003:IKXOffsetShoulder_L/robot_rig_0003:IKXShoulder_L/robot_rig_0003:IKXElbow_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_L/robot_rig_0003:IKXOffsetShoulder_L/robot_rig_0003:IKXShoulder_L/robot_rig_0003:IKXElbow_L/robot_rig_0003:IKX2Elbow_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_L/robot_rig_0003:IKXOffsetShoulder_L/robot_rig_0003:IKXShoulder_L/robot_rig_0003:IKXElbow_L/robot_rig_0003:IKXWrist_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_L/robot_rig_0003:IKXOffsetShoulder_L/robot_rig_0003:IKXShoulder_L/robot_rig_0003:IKXElbow_L/robot_rig_0003:IKXWrist_L/robot_rig_0003:IKX2Wrist_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_L/robot_rig_0003:IKXOffsetShoulder_L/robot_rig_0003:IKXShoulder_L/robot_rig_0003:IKXElbow_L/robot_rig_0003:PoleAnnotationArm_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_R/robot_rig_0003:IKMessureFromShoulder_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_R/robot_rig_0003:IKXOffsetShoulder_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_R/robot_rig_0003:IKXOffsetShoulder_R/robot_rig_0003:IKXShoulder_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_R/robot_rig_0003:IKXOffsetShoulder_R/robot_rig_0003:IKXShoulder_R/robot_rig_0003:IKX2Shoulder_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_R/robot_rig_0003:IKXOffsetShoulder_R/robot_rig_0003:IKXShoulder_R/robot_rig_0003:IKXElbow_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_R/robot_rig_0003:IKXOffsetShoulder_R/robot_rig_0003:IKXShoulder_R/robot_rig_0003:IKXElbow_R/robot_rig_0003:IKX2Elbow_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_R/robot_rig_0003:IKXOffsetShoulder_R/robot_rig_0003:IKXShoulder_R/robot_rig_0003:IKXElbow_R/robot_rig_0003:IKXWrist_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_R/robot_rig_0003:IKXOffsetShoulder_R/robot_rig_0003:IKXShoulder_R/robot_rig_0003:IKXElbow_R/robot_rig_0003:IKXWrist_R/robot_rig_0003:IKX2Wrist_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKParentConstraintShoulder_R/robot_rig_0003:IKXOffsetShoulder_R/robot_rig_0003:IKXShoulder_R/robot_rig_0003:IKXElbow_R/robot_rig_0003:PoleAnnotationArm_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKSpSpineOffset_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKSpSpineOffset_M/robot_rig_0003:IKSpRoot_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKJoints/robot_rig_0003:IKSpSpineOffset_M/robot_rig_0003:IKSpRoot_M/robot_rig_0003:IKSpRootFollowOffset_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKMessure
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKMessure/robot_rig_0003:IKdistanceArm_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKMessure/robot_rig_0003:IKdistanceArm_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKMessure/robot_rig_0003:IKdistanceLeg_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKMessure/robot_rig_0003:IKdistanceLeg_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKMessure/robot_rig_0003:IKmessureLoc1Arm_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKMessure/robot_rig_0003:IKmessureLoc1Arm_L/robot_rig_0003:IKmessureLoc2Arm_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKMessure/robot_rig_0003:IKmessureLoc1Arm_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKMessure/robot_rig_0003:IKmessureLoc1Arm_R/robot_rig_0003:IKmessureLoc2Arm_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKMessure/robot_rig_0003:IKmessureLoc1Leg_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKMessure/robot_rig_0003:IKmessureLoc1Leg_L/robot_rig_0003:IKmessureLoc2Leg_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKMessure/robot_rig_0003:IKmessureLoc1Leg_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKMessure/robot_rig_0003:IKmessureLoc1Leg_R/robot_rig_0003:IKmessureLoc2Leg_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKStatic
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKStatic/robot_rig_0003:IKOffsetArm_LStatic
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKStatic/robot_rig_0003:IKOffsetArm_RStatic
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKStatic/robot_rig_0003:PoleOffsetArm_LStatic
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKStatic/robot_rig_0003:PoleOffsetArm_RStatic
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKStatic/robot_rig_0003:PoleOffsetLeg_LStatic
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:IKSystem/robot_rig_0003:IKStatic/robot_rig_0003:PoleOffsetLeg_RStatic
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:RootSystem
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:RootSystem/robot_rig_0003:LegLockConstrained
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:RootSystem/robot_rig_0003:RootOffsetX_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:RootSystem/robot_rig_0003:RootOffsetX_M/robot_rig_0003:RootExtraX_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:FKIKMixElbow_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:FKIKMixElbow_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowOffsetChest_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowOffsetChest_M/robot_rig_0003:TwistFollowChest_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowOffsetChest_M/robot_rig_0003:TwistFollowChest_M/robot_rig_0003:UnTwistIKChest_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowOffsetElbow_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowOffsetElbow_L/robot_rig_0003:TwistFollowElbow_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowOffsetElbow_L/robot_rig_0003:TwistFollowElbow_L/robot_rig_0003:UnTwistIKElbow_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowOffsetElbow_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowOffsetElbow_R/robot_rig_0003:TwistFollowElbow_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowOffsetElbow_R/robot_rig_0003:TwistFollowElbow_R/robot_rig_0003:UnTwistIKElbow_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowOffsetShoulder_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowOffsetShoulder_L/robot_rig_0003:TwistFollowShoulder_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowOffsetShoulder_L/robot_rig_0003:TwistFollowShoulder_L/robot_rig_0003:UnTwistIKShoulder_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowOffsetShoulder_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowOffsetShoulder_R/robot_rig_0003:TwistFollowShoulder_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowOffsetShoulder_R/robot_rig_0003:TwistFollowShoulder_R/robot_rig_0003:UnTwistIKShoulder_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetChest_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetChest_M/robot_rig_0003:TwistFollowParentChest_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetChest_M/robot_rig_0003:TwistFollowParentChest_M/robot_rig_0003:UnTwistChest_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetChest_M/robot_rig_0003:TwistFollowParentChest_M/robot_rig_0003:UnTwistChest_M/robot_rig_0003:TwistBalancerChest_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetChest_M/robot_rig_0003:TwistFollowParentChest_M/robot_rig_0003:UnTwistChest_M/robot_rig_0003:UnTwistEndChest_M
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetElbow_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetElbow_L/robot_rig_0003:TwistFollowParentElbow_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetElbow_L/robot_rig_0003:TwistFollowParentElbow_L/robot_rig_0003:UnTwistElbow_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetElbow_L/robot_rig_0003:TwistFollowParentElbow_L/robot_rig_0003:UnTwistElbow_L/robot_rig_0003:TwistBalancerElbow_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetElbow_L/robot_rig_0003:TwistFollowParentElbow_L/robot_rig_0003:UnTwistElbow_L/robot_rig_0003:TwisterElbow0_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetElbow_L/robot_rig_0003:TwistFollowParentElbow_L/robot_rig_0003:UnTwistElbow_L/robot_rig_0003:TwisterElbow1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetElbow_L/robot_rig_0003:TwistFollowParentElbow_L/robot_rig_0003:UnTwistElbow_L/robot_rig_0003:TwisterElbow2_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetElbow_L/robot_rig_0003:TwistFollowParentElbow_L/robot_rig_0003:UnTwistElbow_L/robot_rig_0003:UnTwistEndElbow_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetElbow_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetElbow_R/robot_rig_0003:TwistFollowParentElbow_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetElbow_R/robot_rig_0003:TwistFollowParentElbow_R/robot_rig_0003:UnTwistElbow_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetElbow_R/robot_rig_0003:TwistFollowParentElbow_R/robot_rig_0003:UnTwistElbow_R/robot_rig_0003:TwistBalancerElbow_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetElbow_R/robot_rig_0003:TwistFollowParentElbow_R/robot_rig_0003:UnTwistElbow_R/robot_rig_0003:TwisterElbow0_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetElbow_R/robot_rig_0003:TwistFollowParentElbow_R/robot_rig_0003:UnTwistElbow_R/robot_rig_0003:TwisterElbow1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetElbow_R/robot_rig_0003:TwistFollowParentElbow_R/robot_rig_0003:UnTwistElbow_R/robot_rig_0003:TwisterElbow2_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetElbow_R/robot_rig_0003:TwistFollowParentElbow_R/robot_rig_0003:UnTwistElbow_R/robot_rig_0003:UnTwistEndElbow_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetShoulder_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetShoulder_L/robot_rig_0003:TwistFollowParentShoulder_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetShoulder_L/robot_rig_0003:TwistFollowParentShoulder_L/robot_rig_0003:UnTwistShoulder_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetShoulder_L/robot_rig_0003:TwistFollowParentShoulder_L/robot_rig_0003:UnTwistShoulder_L/robot_rig_0003:TwistBalancerShoulder_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetShoulder_L/robot_rig_0003:TwistFollowParentShoulder_L/robot_rig_0003:UnTwistShoulder_L/robot_rig_0003:TwisterShoulder0_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetShoulder_L/robot_rig_0003:TwistFollowParentShoulder_L/robot_rig_0003:UnTwistShoulder_L/robot_rig_0003:TwisterShoulder1_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetShoulder_L/robot_rig_0003:TwistFollowParentShoulder_L/robot_rig_0003:UnTwistShoulder_L/robot_rig_0003:TwisterShoulder2_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetShoulder_L/robot_rig_0003:TwistFollowParentShoulder_L/robot_rig_0003:UnTwistShoulder_L/robot_rig_0003:UnTwistEndShoulder_L
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetShoulder_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetShoulder_R/robot_rig_0003:TwistFollowParentShoulder_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetShoulder_R/robot_rig_0003:TwistFollowParentShoulder_R/robot_rig_0003:UnTwistShoulder_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetShoulder_R/robot_rig_0003:TwistFollowParentShoulder_R/robot_rig_0003:UnTwistShoulder_R/robot_rig_0003:TwistBalancerShoulder_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetShoulder_R/robot_rig_0003:TwistFollowParentShoulder_R/robot_rig_0003:UnTwistShoulder_R/robot_rig_0003:TwisterShoulder0_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetShoulder_R/robot_rig_0003:TwistFollowParentShoulder_R/robot_rig_0003:UnTwistShoulder_R/robot_rig_0003:TwisterShoulder1_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetShoulder_R/robot_rig_0003:TwistFollowParentShoulder_R/robot_rig_0003:UnTwistShoulder_R/robot_rig_0003:TwisterShoulder2_R
+        weight: 1
+      - path: robot_rig_0003:Group/robot_rig_0003:Main/robot_rig_0003:MotionSystem/robot_rig_0003:TwistSystem/robot_rig_0003:TwistFollowParentOffsetShoulder_R/robot_rig_0003:TwistFollowParentShoulder_R/robot_rig_0003:UnTwistShoulder_R/robot_rig_0003:UnTwistEndShoulder_R
+        weight: 1
+      - path: robot_rig_0003:group2
+        weight: 1
+      - path: robot_rig_0003:group3
+        weight: 1
+      - path: robot_rig_0003:jnt_L_ear
+        weight: 1
+      - path: robot_rig_0003:jnt_R_ear
+        weight: 1
+      - path: robot_rig_0003:robot
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface1
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface2
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface3
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface4
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface5
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface6
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface7
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface8
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface9
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface10
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface11
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface12
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface13
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface14
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface15
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface16
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface17
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface18
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface19
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface20
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface21
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface22
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface23
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface24
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface25
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface26
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface27
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface28
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface29
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface30
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface31
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface32
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface33
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface34
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface35
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface36
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface37
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:polySurface38
+        weight: 1
+      - path: robot_rig_0003:robot/robot_rig_0003:transform1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: robotrocktwo
+  assetBundleVariant: 
