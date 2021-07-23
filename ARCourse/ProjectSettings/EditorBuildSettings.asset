@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/FaceTrackingMaterial.unity
+    guid: defeca0fa24030647b0a57aada6830db
+  - enabled: 1
     path: Assets/Scenes/MultipleImageTracking.unity
     guid: 4b7572a3dfb6b68489e07f095dda2de5
   - enabled: 1
@@ -14,9 +17,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/HelloARFoundation.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
-    path: Assets/Scenes/Plane Detection.unity
-    guid: 733c5605b17991f45bda9f3a8dedc81f
   - enabled: 0
     path: Assets/Scenes/ImageTrackingVideo.unity
     guid: 0be480a06ddd0bb4694b09b536060c06
