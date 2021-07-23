@@ -38,4 +38,9 @@ public class ARSceneManager : MonoBehaviour
     {
         SceneManager.LoadScene("ImageTrackingVideo", loadSceneMode);
     }
+
+    public void Goto(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
 }
