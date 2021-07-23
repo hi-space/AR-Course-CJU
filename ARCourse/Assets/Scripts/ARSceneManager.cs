@@ -19,6 +19,11 @@ public class ARSceneManager : MonoBehaviour
         
     }
 
+    public void GotoMain()
+    {
+        SceneManager.LoadScene("Main", loadSceneMode);
+    }
+
     public void GotoHelloARFoundation()
     {
         SceneManager.LoadScene("HelloARFoundation", loadSceneMode);
