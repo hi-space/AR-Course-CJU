@@ -9,7 +9,7 @@ public class ARObjectMovement : MonoBehaviour
     private ARRaycastManager arRaycastManager;
     private List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
-    private GameObject spawnedObject;
+    private GameObject arObject;
 
     private void Awake()
     {
@@ -27,14 +27,14 @@ public class ARObjectMovement : MonoBehaviour
         {
             var hitPose = hits[0].pose;
 
-            if (!spawnedObject)
+            if (!arObject)
             {
-                spawnedObject = Instantiate(arRaycastManager.raycastPrefab, hitPose.position, hitPose.rotation);
+                arObject = Instantiate(arRaycastManager.raycastPrefab, hitPose.position, hitPose.rotation);
             }
             else
             {
-                spawnedObject.transform.position = hitPose.position;
-                spawnedObject.transform.rotation = hitPose.rotation;
+                arObject.transform.position = hitPose.position;
+                arObject.transform.rotation = hitPose.rotation;
             }
         }
     }
