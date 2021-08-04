@@ -705,7 +705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RaycastPrefab: {fileID: 5128641637230014524, guid: 82fab58364d494349b99ba67fb119856, type: 3}
+  m_RaycastPrefab: {fileID: 5128641637230014524, guid: 0270affe559f6d045a3be0acc4af189c, type: 3}
 --- !u!114 &1262968267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -715,7 +715,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1262968262}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a6bcd60dc3ff614d8359fab66e6e9e8, type: 3}
+  m_Script: {fileID: 11500000, guid: b87cbfe6edb548149a3c1474a486e14f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1373268055
@@ -1042,8 +1042,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.0016593933
-        value: 0
+        time: 0
+        value: 0.0035705566
         inSlope: 0
         outSlope: 0
         tangentMode: 0

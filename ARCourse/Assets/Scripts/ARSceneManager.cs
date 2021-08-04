@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.XR.ARFoundation;
 
 public class ARSceneManager : MonoBehaviour
 {
@@ -24,23 +25,9 @@ public class ARSceneManager : MonoBehaviour
         SceneManager.LoadScene("Main", loadSceneMode);
     }
 
-    public void GotoHelloARFoundation()
-    {
-        SceneManager.LoadScene("HelloARFoundation", loadSceneMode);
-    }
-
-    public void GotoImageTrackingObject()
-    {
-        SceneManager.LoadScene("ImageTrackingObject", loadSceneMode);
-    }
-
-    public void GotoImageTrackingVideo()
-    {
-        SceneManager.LoadScene("ImageTrackingVideo", loadSceneMode);
-    }
-
     public void Goto(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+        FindObjectOfType<ARSession>().Reset();
     }
 }
