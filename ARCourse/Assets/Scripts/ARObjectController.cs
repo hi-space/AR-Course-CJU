@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
@@ -11,7 +12,7 @@ public class ARObjectController : MonoBehaviour
 
     private GameObject arObject;
 
-    private float scale = 1.0f;
+    private float scale = 0.1f;
     private float angle = 0.0f;
 
     private void Awake()
@@ -45,9 +46,10 @@ public class ARObjectController : MonoBehaviour
         if (Input.touchCount == 0)
         {
             return;
-        }        
+        }
 
-        if (arRaycastManager.Raycast(Input.GetTouch(0).position, hits, TrackableType.PlaneWithinPolygon))
+        var touchPos = Input.GetTouch(0).position;
+        if (!IsPointOverUIObject(touchPos) && arRaycastManager.Raycast(touchPos, hits, TrackableType.PlaneWithinPolygon))
         {
             var hitPose = hits[0].pose;
 
@@ -64,5 +66,14 @@ public class ARObjectController : MonoBehaviour
                 arObject.transform.rotation = hitPose.rotation;
             }            
         }
+    }
+
+    private bool IsPointOverUIObject(Vector2 pos)
+    {
+        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+        eventDataCurrentPosition.position = new Vector2(pos.x, pos.y);
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+        return results.Count > 0;
     }
 }
