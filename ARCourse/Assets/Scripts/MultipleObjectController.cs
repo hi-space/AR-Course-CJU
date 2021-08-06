@@ -68,7 +68,7 @@ public class MultipleObjectController : MonoBehaviour
         {
             Pose hitPose = arHits[0].pose;
             if (!selectedObject)
-            { 
+            {
                 var obj = Instantiate(selectedItem, hitPose.position, hitPose.rotation);
                 selectedObject = obj.AddComponent<ARObject>() as ARObject;
             }
