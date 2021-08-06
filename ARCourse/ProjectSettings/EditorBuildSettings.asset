@@ -6,10 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MultipleObjectControl.unity
+    guid: 7504d942c3f3cc24fb77152f85b8f5b1
+  - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 602493b0ee30b2b41a39f652c5a3e6eb
   - enabled: 1
-    path: Assets/Scenes/MultipleObjectControl.unity
+    path: Assets/Scenes/_MultipleObjectControl.unity
     guid: c7fa412742389294180b436e70f37925
   - enabled: 1
     path: Assets/Scenes/SingleObjectControl.unity

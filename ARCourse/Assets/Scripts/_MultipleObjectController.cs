@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
-public class MultipleObjectController : MonoBehaviour
+public class _MultipleObjectController : MonoBehaviour
 {
     [SerializeField]
     ARRaycastManager arRaycastManager;
@@ -13,12 +13,11 @@ public class MultipleObjectController : MonoBehaviour
     [SerializeField]
     Camera arCamera;
 
-    private GameObject selectedItem;
-    static List<ARRaycastHit> arHits = new List<ARRaycastHit>();
-    RaycastHit hitObj;
+    _ARObject selectedObject;
+    GameObject selectedItem;
 
-    ARObject selectedObject;
-    bool isTouching;
+    private static List<ARRaycastHit> arHits = new List<ARRaycastHit>();
+    private static RaycastHit physicsHit;
 
     private void Awake()
     {
@@ -36,43 +35,43 @@ public class MultipleObjectController : MonoBehaviour
         if (Input.touchCount == 0)
             return;
 
-        var touchPoint = Input.GetTouch(0).position;
-        if (IsPointOverUIObject(touchPoint))
-            return;
-
         Touch touch = Input.GetTouch(0);
         Vector2 touchPosition = touch.position;
+
+        if (IsPointOverUIObject(touchPosition))
+            return;
+
 
         if (touch.phase == TouchPhase.Began)
         {
             Ray ray = arCamera.ScreenPointToRay(touchPosition);
-            if (Physics.Raycast(ray, out hitObj))
+            if (Physics.Raycast(ray, out physicsHit))
             {
-                selectedObject = hitObj.transform.GetComponent<ARObject>();
+                selectedObject = physicsHit.transform.GetComponent<_ARObject>();
                 if (selectedObject)
                 {
-                    ARObject[] objects = FindObjectsOfType<ARObject>();
-                    foreach (ARObject obj in objects)
+                    _ARObject[] objects = FindObjectsOfType<_ARObject>();
+                    foreach (_ARObject obj in objects)
                     {
-                        obj.IsSelected = (obj == selectedObject);
+                        obj.Selected = (obj == selectedObject);
                     }
                 }
             }
         }
         else if (touch.phase == TouchPhase.Ended)
         {
-            selectedObject.IsSelected = false;
+            selectedObject.Selected = false;
         }
 
-        if (arRaycastManager.Raycast(touchPoint, arHits, TrackableType.PlaneWithinPolygon))
+        if (arRaycastManager.Raycast(touchPosition, arHits, TrackableType.PlaneWithinPolygon))
         {
             Pose hitPose = arHits[0].pose;
             if (!selectedObject)
             {
                 var obj = Instantiate(selectedItem, hitPose.position, hitPose.rotation);
-                selectedObject = obj.AddComponent<ARObject>() as ARObject;
+                selectedObject = obj.AddComponent<_ARObject>() as _ARObject;
             }
-            else if (selectedObject.IsSelected)
+            else if (selectedObject.Selected)
             {
                 selectedObject.transform.position = hitPose.position;
                 selectedObject.transform.rotation = hitPose.rotation;

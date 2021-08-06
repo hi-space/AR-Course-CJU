@@ -4,63 +4,43 @@ using UnityEngine;
 
 public class ARObject : MonoBehaviour
 {
-    public bool IsSelected = false;
-    MeshRenderer meshRenderer;
-    Material originMaterial;
-    Material selectedMaterial;
-    Color originColor;
+    private bool IsSelected;
+    private MeshRenderer meshRender;
+    private Color originColor;
+
+    public bool Selected
+    {
+        get
+        {
+            return this.IsSelected;
+        }
+        set
+        {
+            IsSelected = value;
+            UpdateMaterialColor();
+        }
+    }
 
     private void Awake()
     {
-        meshRenderer = GetComponent<MeshRenderer>();
-
-        if (!meshRenderer)
+        meshRender = GetComponent<MeshRenderer>();
+        if (!meshRender)
         {
-            meshRenderer = this.gameObject.AddComponent<MeshRenderer>();
+            meshRender = this.gameObject.AddComponent<MeshRenderer>();
         }
 
-        originMaterial = meshRenderer.material;
-        originColor = meshRenderer.material.color;
-        //selectedMaterial = Resources.Load("Materials/Selected.mat", typeof(Material)) as Material;
+        originColor = meshRender.material.color;
     }
-
-    public void Update()
+    
+    private void UpdateMaterialColor()
     {
         if (IsSelected)
         {
-            //meshRenderer.material = selectedMaterial;
-            meshRenderer.material.color = Color.gray;
+            meshRender.material.color = Color.gray;
         }
         else
         {
-            meshRenderer.material.color = originColor;
-            //meshRenderer.material = originMaterial;
+            meshRender.material.color = originColor;
         }
-    }
-
-    public void ActiveToggle()
-    {
-        IsSelected = !IsSelected;
-
-        if (IsSelected)
-        {
-            Debug.Log("Selected: " + this.name);
-            meshRenderer.material.color = Color.gray;
-        }
-        else
-        {
-            Debug.Log("Unselected: " + this.name);
-        }   
-    }
-
-    public void Selected()
-    {
-        IsSelected = true;
-        meshRenderer.material.color = Color.gray;
-    }
-
-    public void UnSelected()
-    {
-        IsSelected = false;
     }
 }
