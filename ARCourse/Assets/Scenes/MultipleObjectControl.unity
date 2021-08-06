@@ -368,7 +368,7 @@ MonoBehaviour:
         m_MethodName: SetSelectedItem
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8784133271185998819, guid: 707f5c02ab3849d4d83e404c48aa675a, type: 3}
+          m_ObjectArgument: {fileID: 3862679980290626507, guid: b5321bd4afeebed41b0c5d2587e45940, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -831,6 +831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arRaycastManager: {fileID: 1262968266}
+  arCamera: {fileID: 1490954432}
 --- !u!4 &599354287
 Transform:
   m_ObjectHideFlags: 0
@@ -1694,6 +1695,7 @@ GameObject:
   - component: {fileID: 1262968263}
   - component: {fileID: 1262968265}
   - component: {fileID: 1262968266}
+  - component: {fileID: 1262968267}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -1756,6 +1758,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RaycastPrefab: {fileID: 0}
+--- !u!114 &1262968267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262968262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a025b51106444e18fb408fde19ac53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutomaticPlacement: 1
+  m_EnvironmentTextureFilterMode: 2
+  m_EnvironmentTextureHDR: 1
+  m_DebugPrefab: {fileID: 0}
 --- !u!1 &1294096539
 GameObject:
   m_ObjectHideFlags: 0
@@ -1879,7 +1897,7 @@ MonoBehaviour:
         m_MethodName: SetSelectedItem
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 5375021133847590561, guid: c13d463441ee20642aa423b0433ccbd2, type: 3}
+          m_ObjectArgument: {fileID: 6114215237301528839, guid: c13d463441ee20642aa423b0433ccbd2, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
